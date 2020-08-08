@@ -128,7 +128,7 @@ jQuery(document).ready(function($){
       dots: false,
       autoplay: true,
       infinite: true,
-      speed: 1000,
+      speed: 600,
       fade: true,
       cssEase: 'linear'
     });
