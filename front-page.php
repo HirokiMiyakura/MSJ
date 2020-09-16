@@ -23,7 +23,7 @@
 		</div>
 	</div>
 </div>
-<section>
+<!-- <section>
 <div class="inner">
 <h2 class="title">キャンペーン<span> - CAMPAIGN -</span></h2>
 	<div class="campaignOuter inner">
@@ -44,7 +44,7 @@
 		</div>
 	</div>
 </div>
-</section>
+</section> -->
 <section>
 <h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">MSJの特徴<span> - FEATURES -</span></h2>
 <div class="bg">

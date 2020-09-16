@@ -120,16 +120,16 @@ get_header(); ?>
 <tr>
 <td>入会金</td>
 <td>初回1回のみ</td>
-<td><del>10,000円</del><span>今だけ無料！</span></td>
+<td>10,000円</td>
 </tr>
 <tr>
 <td>入会手数料</td>
 <td>初回1回のみ</td>
-<td><del>3,000円</del><span>今だけ無料！</span></td>
+<td>3,000円</td>
 </tr>
 </tbody>
 </table>
-<p class="campaign">さらに、今なら初月無料キャンペーン実施中！！</p>
+<!-- <p class="campaign">さらに、今なら初月無料キャンペーン実施中！！</p> -->
 </div>
 </section>
 
