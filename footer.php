@@ -24,7 +24,7 @@
           <td>13:00〜16:00　18:00〜23:00</td>
         </tr>
       </table>
-      <h6>福岡店</h6>
+      <h6>天神店</h6>
       <table class="footerTable">
         <tr>
           <td>住所</td>
@@ -51,7 +51,9 @@
         <li><a href="<?php echo home_url(); ?>/about/">MSJについて</a></li>
         <li><a href="<?php echo home_url(); ?>/guidance/">入会案内</a></li>
         <li><a href="<?php echo home_url(); ?>/class/">クラス紹介</a></li>
-        <li><a href="<?php echo home_url(); ?>/price/">料金案内</a></li>
+        <li><a href="<?php echo home_url(); ?>/stores/">店舗紹介</a></li>
+        <li><a href="<?php echo home_url(); ?>/stores/tikushino/">筑紫野店</a></li>
+        <li><a href="<?php echo home_url(); ?>/stores/tenjin/">天神店</a></li>
         <li><a href="<?php echo home_url(); ?>/news/">ニュース</a></li>
         <li><a href="<?php echo home_url(); ?>/contact/">お問い合わせ</a></li>
       </ul>

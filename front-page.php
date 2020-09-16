@@ -27,7 +27,7 @@
 <div class="inner">
 <h2 class="title">キャンペーン<span> - CAMPAIGN -</span></h2>
 	<div class="campaignOuter inner">
-		<h3>福岡店ニューオープンキャンペーン実施中</h3>
+		<h3>天神店ニューオープンキャンペーン実施中</h3>
 		<div class="campaignContainer">
 			<div class="campaignContainer__item">
 				<p>特典1</p>
@@ -80,8 +80,8 @@
 				<img src="<?php echo get_template_directory_uri(); ?>/img/top/features3.png" />
 			</div>
 			<div class="featuresContainer__item">
-				<h3 data-aos="zoom-in-right" data-aos-duration="500">筑紫野店、福岡店ともに駅から徒歩圏内</h3>
-				<p>MSJキックボクシングジムは、仕事帰りや学校帰りにも便利な駅近にあります。<br>筑紫野店は西鉄筑紫駅東口下車0分、福岡店も徒歩7分と好立地です。</p>
+				<h3 data-aos="zoom-in-right" data-aos-duration="500">筑紫野店、天神店ともに駅から徒歩圏内</h3>
+				<p>MSJキックボクシングジムは、仕事帰りや学校帰りにも便利な駅近にあります。<br>筑紫野店は西鉄筑紫駅東口下車0分、天神店も徒歩7分と好立地です。</p>
 			</div>
 		</div>
 	</div>
@@ -145,7 +145,7 @@
 		<img src="<?php echo get_template_directory_uri(); ?>/img/top/store2.png" alt="" />
 	</div>
 	<div class="gymContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-		<h3>福岡店</h3>
+		<h3>天神店</h3>
 		<table class="footerTable">
         <tr>
           <td>住所</td>
@@ -222,7 +222,7 @@
 <h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">アクセスマップ<span> - ACCESS -</span></h2>
 <div class="accessContainer">
 	<div class="accessContainer__item">
-		<h3 data-aos="zoom-in-up" data-aos-duration="1000">福岡店</h3>
+		<h3 data-aos="zoom-in-up" data-aos-duration="1000">天神店</h3>
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.4246103775004!2d130.39256081555135!3d33.594285780733095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191895bc24eaf%3A0x6eeddc2d640cc909!2z44CSODEwLTAwMDEg56aP5bKh55yM56aP5bKh5biC5Lit5aSu5Yy65aSp56We77yT5LiB55uu77yZ4oiS77yR77yQIOWkqeelnuadvuS6leODk-ODqyAyRg!5e0!3m2!1sja!2sjp!4v1595583599011!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 	</div>
 	<div class="accessContainer__item">

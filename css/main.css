@@ -520,7 +520,7 @@ footer .footerContainer__item h5 {
 footer .footerContainer__item h6 {
   font-size: .85em;
   color: #fff;
-  text-shadow: 1px 1px 2px #000;
+  margin-bottom: 8px;
 }
 
 footer .footerContainer__item ul {
@@ -556,6 +556,10 @@ footer .footerContainer__item:first-child {
   padding: 4px;
 }
 
+.footerTable td:first-child {
+  font-weight: 900;
+}
+
 .copyright {
   font-size: 10px;
   text-align: center;
@@ -569,6 +573,20 @@ footer .footerContainer__item:first-child {
   text-align: center;
   line-height: 2;
   margin: 24px 0;
+}
+
+.tTitle {
+  font-size: 24px;
+  margin: 64px 0 24px 0;
+  font-weight: normal;
+  text-align: center;
+}
+
+.tTitle span {
+  color: deeppink;
+  font-weight: normal;
+  font-size: .75em;
+  font-style: italic;
 }
 
 .trainerContainer {
@@ -586,8 +604,17 @@ footer .footerContainer__item:first-child {
   margin-bottom: 24px;
 }
 
+.trainerContainer__item ul {
+  margin: 16px 0 0 16px;
+}
+
+.trainerContainer__item ul li {
+  font-size: 14px;
+}
+
 .trainerContainer__item p {
-  margin: 16px 0;
+  margin: 16px 0 0 0;
+  font-size: 14px;
 }
 
 .trainerContainer__item img {
@@ -615,10 +642,9 @@ footer .footerContainer__item:first-child {
   font-size: 1.25em;
   letter-spacing: .2em;
   font-weight: 900;
-  text-align: center;
   color: #444;
   padding: 16px;
-  margin-top: 32px;
+  margin-top: 40px;
 }
 
 .classTable {
@@ -634,7 +660,10 @@ footer .footerContainer__item:first-child {
   text-align: left;
   padding: 16px;
   background-color: #eee;
+  background-color: deeppink;
+  background-color: #000;
   color: #444;
+  color: #fff;
   letter-spacing: .15em;
 }
 
@@ -648,6 +677,7 @@ footer .footerContainer__item:first-child {
   min-width: 80px;
   text-align: left;
   padding: 16px;
+  border: 1px solid silver;
 }
 
 .classTable tbody th span,
@@ -658,6 +688,83 @@ footer .footerContainer__item:first-child {
   font-weight: 900;
 }
 
+.schedule_bikou {
+  margin: 32px 0;
+  font-size: 16px;
+  text-align: right;
+  list-style-type: none;
+  line-height: 2;
+  letter-spacing: .1em;
+}
+
+.schedule_bikou span {
+  color: deeppink;
+}
+
+.scheduleTable {
+  width: 100%;
+  font-size: 9px;
+  text-align: center;
+}
+
+.scheduleTable tr {
+  height: 48px;
+}
+
+.scheduleTable .noBorder td {
+  border: none;
+}
+
+.scheduleTable th,
+.scheduleTable td {
+  padding: 16px 4px;
+  border: 1px solid #fff;
+  letter-spacing: 1px;
+}
+
+.scheduleTable th.freetrainingClass,
+.scheduleTable td.freetrainingClass {
+  background-color: blue;
+  color: white;
+}
+
+.scheduleTable th.juniorClass,
+.scheduleTable td.juniorClass {
+  background-color: #b3093f;
+  color: #fff;
+}
+
+.scheduleTable th.proClass,
+.scheduleTable td.proClass {
+  background-color: #451531;
+  color: #fff;
+}
+
+.scheduleTable th.fitnessClass,
+.scheduleTable td.fitnessClass {
+  background-color: #64b7cc;
+  color: #fff;
+}
+
+.scheduleTable th.juniorspecialClass,
+.scheduleTable td.juniorspecialClass {
+  background-color: #f4ac45;
+  color: #fff;
+}
+
+.scheduleTable th.bodymakeClass,
+.scheduleTable td.bodymakeClass {
+  background-color: #ff3877;
+  color: #fff;
+}
+
+.scheduleTable th:first-child,
+.scheduleTable td:first-child {
+  vertical-align: top;
+  padding-top: 0;
+  border: none;
+}
+
 .campaign {
   color: deeppink;
   font-size: 2em;
@@ -666,13 +773,19 @@ footer .footerContainer__item:first-child {
   margin: 32px 0;
 }
 
+.toDetails {
+  color: deeppink;
+  font-weight: 900;
+  font-size: 14px;
+}
+
 .area {
   width: 100%;
   margin: 80px auto;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
 }
 
@@ -817,6 +930,15 @@ input[type="submit"] {
   border: none;
 }
 
+@media screen and (max-width: 1080px) {
+  header .headerInner {
+    width: 100%;
+  }
+  .inner {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   body {
     max-width: 1400px;
@@ -826,7 +948,7 @@ input[type="submit"] {
   p,
   th,
   td {
-    font-size: 1em !important;
+    font-size: 0.85em !important;
   }
   .inner {
     width: 100%;
@@ -955,8 +1077,11 @@ input[type="submit"] {
   }
   table th,
   table td {
-    display: block;
-    width: 100%;
+    font-size: 9px !important;
+  }
+  .tTitle {
+    font-size: 1.2em;
+    margin: 64px 0 24px 0;
   }
   .topImage {
     height: 65vh;
@@ -969,10 +1094,16 @@ input[type="submit"] {
     width: 100%;
   }
   .basicInfoTable tr th {
-    background-color: #eee;
+    background-color: #fff;
   }
   .basicInfoTable tr td {
     background-color: #fff;
+  }
+  .classTable tbody td span {
+    font-size: 16px;
+  }
+  .schedule_bikou {
+    font-size: 12px;
   }
   .area {
     margin: 40px auto;

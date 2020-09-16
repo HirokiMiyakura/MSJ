@@ -22,54 +22,150 @@ get_header(); ?>
 </div>
 <section>
 <div class="inner">
-<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">トレーナー紹介<span> ~ PRO TRAINERS ~</span></h2>
+<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">メンバー紹介<span> ~ MEMBERS ~</span></h2>
 <p class="textCenter">現役プロ選手や日本ランカーが優しくわかりやすく皆様をレッスン致します。</p>
+<h3 class="tTitle" data-aos="zoom-in-up" data-aos-duration="1000">現役プロ選手<span> ~ PROS ~</span></h3>
 <div class="trainerContainer">
-	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/about/trainer1.jpg" alt="" />
-		<h4>永椎太陽（ながしい　たいよう）<br>ジム代表<br>全クラス担当</h4>
-		<p>一言：長年ファイタ－として戦ってきた経験と知識を選手だけではなく身体作りやダイエットのプロとして皆様にキックを通じて楽しくお伝えしていきたいと思います</p>
+<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m1.jpg" alt="" />
+		<h4>松島勲也</h4>
+		<ul>
+			<li>戦績21戦20勝1敗（7KO）</li>
+			<li>J-NETWORKミドル級チャンピオン</li>
+			<li>KOSスーパーウェルター級チャンピオン</li>
+		</ul>
 	</div>
 	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/about/trainer2.jpg" alt="" />
-		<h4>白坂令志（しらさか　れいじ）<br>月曜・金曜担当</h4>
-		<p>一言：MSJでは、こんなイケメントレ－ナ－が丁寧に技術指導してくれます。キックを一緒に楽しみましょう</p>
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m2.jpg" alt="" />
+		<h4>判田大卓</h4>
+		<ul>
+			<li>戦績22戦12勝5敗5分（3KO）</li>
+			<li>KOSスーパーバンタム級5位</li>
+		</ul>
 	</div>
 	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/about/trainer3.jpg" alt="" />
-		<h4>松島勲也（まつしま　いざや）<br>木曜日<br>フィットネス担当</h4>
-		<p>一言：フィットネスクラスで高い信頼性を持つ現役中量級ファイターです。気は優しく力持ち。なんでも声かけてください</p>
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m3.jpg" alt="" />
+		<h4>薦田史樹</h4>
+		<ul>
+			<li>戦績8戦8勝（2KO）</li>
+			<li>J-NETWORKスーパーバンタム級3位</li>
+			<li>KOSスーパーバンタム級1位</li>
+			<li>アマチュア全日本Aクラストーナメント優勝</li>
+			<li>ジュニア6回級制覇王者</li>
+		</ul>
 	</div>
 	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/about/trainer4.jpg" alt="" />
-		<h4>江口こまち（えぐち　こまち）<br>火曜日　フィットネス担当　水曜日<br>ジュニア担当</h4>
-		<p>一言：現役ムエタイ日本王者からレベルの高い技術を学べます。九州では唯一の現役日本チャンピオン。従来の格闘技のイメ－ジも全くなく女性も安心してご入会して頂けます。</p>
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m4.jpg" alt="" />
+		<h4>NANA⭐️SE</h4>
+		<ul>
+			<li>戦績</li>
+			<li>J-GIRLSバンタム級8位</li>
+		</ul>
 	</div>
 	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/about/trainer5.jpg" alt="" />
-		<h4>嘉村佳孝（かむら　よしたか）<br>月曜日　担当</h4>
-		<p></p>
-	</div>
-	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/about/trainer6.jpg" alt="" />
-		<h4>北嶋優花（きたじま　ゆか）<br>火曜日<br>フィットネス担当</h4>
-		<p></p>
-	</div>
-	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/about/trainer7.jpg" alt="" />
-		<h4>テラポン＠フィ－ム－<br>土曜日　担当</h4>
-		<p></p>
-	</div>
-	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/about/trainer8.jpg" alt="" />
-		<h4>判田大卓（はんだ　ひろたか）<br>水曜日<br>ジュニア担当</h4>
-		<p></p>
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m5.jpg" alt="" />
+		<h4>細野裕希</h4>
+		<ul>
+			<li>戦績9戦9勝（1KO）</li>
+			<li>KOSライト級チャンピオン</li>
+		</ul>
 	</div>
 	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
 	</div>
 </div>
 </div>
 </section>
+
+<section>
+<div class="inner">
+<h3 class="tTitle" data-aos="zoom-in-up" data-aos-duration="1000">引退選手<span> ~ RETIRED ~</span></h3>
+<div class="trainerContainer">
+	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m6.jpg" alt="" />
+		<h4>永椎太陽</h4>
+		<ul>
+			<li>元KOSインターコンチネンタルスーパーバンタム級チャンピオン</li>
+		</ul>
+	</div>
+	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m7.jpg" alt="" />
+		<h4>北嶋優花</h4>
+	</div>
+	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m8.jpg" alt="" />
+		<h4>安永雄気</h4>
+		<ul>
+			<li>元KOSスーパーバンタム級チャンピオン</li>
+		</ul>
+	</div>
+	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m9.jpg" alt="" />
+		<h4>白坂令志</h4>
+	</div>
+	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m10.jpg" alt="" />
+		<h4>嘉村佳孝</h4>
+		<ul>
+			<li>元KOSライト級チャンピオン</li>
+		</ul>
+	</div>
+	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m11.jpg" alt="" />
+		<h4>テラポン@フィームー</h4>
+	</div>
+	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m12.jpg" alt="" />
+		<h4>COMACHI</h4>
+		<ul>
+			<li>元KOSピン級チャンピオン</li>
+			<li>元WPMF日本ピン級チャンピオン</li>
+		</ul>
+	</div>
+	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000"></div>
+	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000"></div>
+	</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="inner">
+<h3 class="tTitle" data-aos="zoom-in-up" data-aos-duration="1000">トレーナー<span> ~ TRAINERS ~</span></h3>
+<div class="trainerContainer">
+	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m6.jpg" alt="" />
+		<h4>永椎太陽</h4>
+		<p>一言：長年ファイタ－として戦ってきた経験と知識を選手だけではなく身体作りやダイエットのプロとして皆様にキックを通じて楽しくお伝えしていきたいと思います</p>
+	</div>
+	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m9.jpg" alt="" />
+		<h4>白坂令志</h4>
+		<p>一言：MSJでは、こんなイケメントレ－ナ－が丁寧に技術指導してくれます。キックを一緒に楽しみましょう</p>
+	</div>
+	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m2.jpg" alt="" />
+		<h4>判田大卓</h4>
+	</div>
+	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m10.jpg" alt="" />
+		<h4>嘉村佳孝</h4>
+		<p></p>
+	</div>
+	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m11.jpg" alt="" />
+		<h4>テラポン＠フィ－ム－</h4>
+		<p></p>
+	</div>
+	<div class="trainerContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/about/m1.jpg" alt="" />
+		<h4>松島勲也</h4>
+		<p>一言：フィットネスクラスで高い信頼性を持つ現役中量級ファイターです。気は優しく力持ち。なんでも声かけてください</p>
+	</div>
+</div>
+</div>
+</section>
+
+
 <section>
 <div class="inner">
 	<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">ジム概要<span> ~ ABOUT ~</span></h2>
@@ -121,7 +217,7 @@ get_header(); ?>
 <h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">アクセスマップ<span> ~ ACCESS ~</span></h2>
 <div class="accessContainer">
 	<div class="accessContainer__item">
-		<h3 data-aos="zoom-in-up" data-aos-duration="1000">福岡店</h3>
+		<h3 data-aos="zoom-in-up" data-aos-duration="1000">天神店</h3>
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.4246103775004!2d130.39256081555135!3d33.594285780733095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191895bc24eaf%3A0x6eeddc2d640cc909!2z44CSODEwLTAwMDEg56aP5bKh55yM56aP5bKh5biC5Lit5aSu5Yy65aSp56We77yT5LiB55uu77yZ4oiS77yR77yQIOWkqeelnuadvuS6leODk-ODqyAyRg!5e0!3m2!1sja!2sjp!4v1595583599011!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 	</div>
 	<div class="accessContainer__item">

@@ -14,7 +14,6 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="<?php bloginfo('description'); ?>">
 <?php wp_head(); ?>
 <script>
 // conditionizr.com
@@ -47,7 +46,7 @@ conditionizr.config({
 		<a href="<?php echo home_url(); ?>/class/">クラス紹介</a>
 		</div>
 		<div class="headerNavigationContainer__item">
-		<a href="<?php echo home_url(); ?>/price/">料金案内</a>
+		<a href="<?php echo home_url(); ?>/stores/">店舗紹介</a>
 		</div>
 		<div class="headerNavigationContainer__item">
 		<a href="<?php echo home_url(); ?>/news/">ニュース</a>
@@ -63,7 +62,7 @@ conditionizr.config({
 					<li><a href="<?php echo home_url(); ?>/about/">MSJについて</a></li>
 					<li><a href="<?php echo home_url(); ?>/guidance/">入会案内</a></li>
 					<li><a href="<?php echo home_url(); ?>/class/">クラス紹介</a></li>
-					<li><a href="<?php echo home_url(); ?>/price/">料金案内</a></li>
+					<li><a href="<?php echo home_url(); ?>/stores/">店舗紹介</a></li>
 					<li><a href="<?php echo home_url(); ?>/news/">ニュース</a></li>
 					<li><a href="<?php echo home_url(); ?>/contact/">お問い合わせ</a></li>
 				</ul>

@@ -151,9 +151,9 @@ get_header(); ?>
             <img src="<?php echo get_template_directory_uri(); ?>/img/top/features3.png" />
           </div>
           <div class="classContainer__item">
-            <h3 data-aos="zoom-in-right" data-aos-duration="500">筑紫店、福岡店ともに駅から徒歩圏内</h3>
+            <h3 data-aos="zoom-in-right" data-aos-duration="500">筑紫店、天神店ともに駅から徒歩圏内</h3>
             <p>MSJキックボクシングジムは、子供だけで通うのに便利な駅近にあります。<br>
-            西鉄筑紫駅東口下車0分と好立地です。福岡店も徒歩7分圏内にあります。</p>
+            西鉄筑紫駅東口下車0分と好立地です。天神店も徒歩7分圏内にあります。</p>
           </div>
         </div>
       </div>

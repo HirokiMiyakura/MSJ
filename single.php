@@ -1,22 +1,24 @@
 <?php get_header(); ?>
 
-<div class="topImage">
-<h1 data-aos="zoom-in-up" data-aos-duration="1000">Latest News</h1>
+<div class="your-class">
+  <div>
+	  <img src="<?php echo get_template_directory_uri(); ?>/img/common/common1.png" alt="" />
+  </div>
 </div>
 
 <div class="breadcrumbsOuter">
-<div class="inner">
-<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
-	<?php if(function_exists('bcn_display'))
-	{
-			bcn_display();
-	}?>
-</div>
-</div>
+  <div class="inner">
+    <div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+      <?php if(function_exists('bcn_display'))
+      {
+          bcn_display();
+      }?>
+    </div>
+  </div>
 </div>
 
 <section>
-
+<div class="inner">
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 <!-- article -->
@@ -31,6 +33,7 @@
 <!-- /post thumbnail -->
 <!-- post details -->
 <span class="date"><?php the_time('Y年n月j日'); ?></span>
+<p><?php _e( 'カテゴリー: ', 'html5blank' ); the_category(', '); // Separated by commas ?></p>
 <!-- /post details -->
 <!-- post title -->
 <h1>
@@ -38,7 +41,6 @@
 </h1>
 <!-- /post title -->
 <?php the_content(); // Dynamic Content ?>
-<p><?php _e( 'Categorised in: ', 'html5blank' ); the_category(', '); // Separated by commas ?></p>
 </article>
 <!-- /article -->
 <?php endwhile; ?>
@@ -49,7 +51,7 @@
 </article>
 <!-- /article -->
 <?php endif; ?>
-
+</div>
 </section>
 <!-- /section -->
 

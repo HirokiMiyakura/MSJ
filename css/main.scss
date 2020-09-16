@@ -439,7 +439,7 @@ footer {
       h6 {
         font-size: .85em;
         color: #fff;
-        text-shadow: 1px 1px 2px #000;
+        margin-bottom: 8px;
       }
       ul {
         list-style-type: none;
@@ -469,6 +469,9 @@ footer {
   td {
     font-size: .8em;
     padding: 4px;
+    &:first-child {
+      font-weight: 900;
+    }
   }
 }
 
@@ -489,6 +492,19 @@ footer {
   margin: 24px 0;
 }
 
+.tTitle {
+  font-size: 24px;
+  margin: 64px 0 24px 0;
+  font-weight: normal;
+  text-align: center;
+  span {
+    color: $mainColor;
+    font-weight: normal;
+    font-size: .75em;
+    font-style: italic;
+  }
+}
+
 .trainerContainer {
   @include flex();
   flex-wrap: wrap;
@@ -496,8 +512,15 @@ footer {
   &__item {
     width: 30%;
     margin-bottom: 24px;
+    ul {
+      margin: 16px 0 0 16px;
+      li {
+        font-size: 14px;
+      }
+    }
     p {
-      margin: 16px 0;
+      margin: 16px 0 0 0;
+      font-size: 14px;
     }
     img {
       max-width: 100%;
@@ -520,16 +543,16 @@ footer {
   }
 }
 
-// price-page.php
+// stores-page.php
 
 .priceTitle {
   font-size: 1.25em;
   letter-spacing: .2em;
   font-weight: 900;
-  text-align: center;
+  // text-align: center;
   color: #444;
   padding: 16px;
-  margin-top: 32px;
+  margin-top: 40px;
 }
 
 .classTable {
@@ -544,7 +567,10 @@ footer {
       text-align: left;
       padding: 16px;
       background-color: #eee;
+      background-color: deeppink;
+      background-color: #000;
       color: #444;
+      color: #fff;
       letter-spacing: .15em;
     }
   }
@@ -558,12 +584,74 @@ footer {
       min-width: 80px;
       text-align: left;
       padding: 16px;
+      border: 1px solid silver;
       & span {
         color: $mainColor;
         padding-left: 20px;
         font-size: 2em;
         font-weight: 900;
       }
+    }
+  }
+}
+
+.schedule_bikou {
+  margin: 32px 0;
+  font-size: 16px;
+  text-align: right;
+  list-style-type: none;
+  line-height: 2;
+  letter-spacing: .1em;
+  span {
+    color: deeppink;
+  }
+}
+
+.scheduleTable {
+  width: 100%;
+  font-size: 9px;
+  text-align: center;
+  tr {
+    height: 48px;
+  }
+  .noBorder {
+    td {
+      border: none;
+    }
+  }
+  th,
+  td {
+    padding: 16px 4px;
+    border: 1px solid #fff;
+    letter-spacing: 1px;
+    &.freetrainingClass {
+      background-color: blue;
+      color: white;
+    }
+    &.juniorClass {
+      background-color: #b3093f;
+      color: #fff;
+    }
+    &.proClass {
+      background-color: #451531;
+      color: #fff;
+    }
+    &.fitnessClass {
+      background-color: #64b7cc;
+      color: #fff;
+    }
+    &.juniorspecialClass {
+      background-color: #f4ac45;
+      color: #fff;
+    }
+    &.bodymakeClass {
+      background-color: #ff3877;
+      color: #fff; 
+    }
+    &:first-child {
+      vertical-align: top;
+      padding-top: 0;
+      border: none;
     }
   }
 }
@@ -576,6 +664,12 @@ footer {
   margin: 32px 0;
 }
 
+.toDetails {
+  color: deeppink;
+  font-weight: 900;
+  font-size: 14px;
+}
+
 // guidance-page.php
 
 
@@ -586,7 +680,7 @@ footer {
   width: 100%;
   margin: 80px auto;
   flex-wrap: wrap;
-  display: flex;
+  @include flex();
 }
  
 .tab_class {
@@ -721,6 +815,17 @@ input[type="submit"] {
   border: none;
 }
 
+@media screen and (max-width: 1080px) {
+  header {
+    .headerInner {
+      width: 100%;
+    }
+  }
+  .inner {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
 
   body {
@@ -732,7 +837,7 @@ input[type="submit"] {
   p,
   th,
   td {
-    font-size: 1em!important;
+    font-size: .85em!important;
   }
 
   .inner {
@@ -880,12 +985,16 @@ input[type="submit"] {
     }
     th,
     td {
-      display: block;
-      width: 100%;
+      font-size: 9px!important;
     }
   }
 
   // about-page.php
+
+  .tTitle {
+    font-size: 1.2em;
+    margin: 64px 0 24px 0;
+  }
 
   .topImage {
     height: 65vh;
@@ -904,7 +1013,7 @@ input[type="submit"] {
   .basicInfoTable {
     tr {
       th {
-        background-color: #eee;
+        background-color: #fff;
       }
       td {
         background-color: #fff;
@@ -912,8 +1021,21 @@ input[type="submit"] {
     }
   }
 
-  // price-page.php
+  // stores-page.php
 
+  .classTable {
+    tbody {
+      td {
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .schedule_bikou {
+    font-size: 12px;
+  }
 
   // guidance-page.php
 
