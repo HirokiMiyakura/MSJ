@@ -470,6 +470,10 @@ header .headerInner .headerNavigationContainer__item a {
   border-bottom: 1px dotted silver;
 }
 
+.youtube_banner {
+  text-align: center;
+}
+
 .accessContainer {
   display: -ms-flexbox;
   display: -webkit-box;

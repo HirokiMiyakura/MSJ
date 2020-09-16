@@ -406,6 +406,10 @@ header {
   }
 }
 
+.youtube_banner {
+  text-align: center;
+}
+
 .accessContainer {
   @include flex();
   justify-content: space-between;

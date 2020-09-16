@@ -200,9 +200,18 @@
 </section>
 <section>
 <div class="inner newsInner">
-<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">SNS<span> - FOLLOW US -</span></h2>
+<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">Instagram<span> - FOLLOW US -</span></h2>
 <div id="insta-window" class="iswd-base" data-iswd='{"username":"taiyo.nagashii","wrapperWidth":""}'></div>
 <script src="https://insta-window-tool.web.app/v3/insta-window.js"></script>
+</div>
+</section>
+<div class="inner newsInner">
+<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">YouTube<span> - SUBSCRIBE US -</span></h2>
+<p class="youtube_banner">
+<a href="https://www.youtube.com/channel/UCF4Zt1WvsTVR3Mr7XdV7Phw" target="_blank">
+<img src="<?php echo get_template_directory_uri(); ?>/img/top/youtube_banner.png" alt="youtube" />
+</a>
+</p>
 </div>
 </section>
 <section>
