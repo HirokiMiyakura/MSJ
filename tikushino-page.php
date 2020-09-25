@@ -216,8 +216,29 @@ get_header(); ?>
 		</tr>
 	</tbody>
 </table>
+</div>
+</section>
 
-
+<section>
+<div class="inner">
+	<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">店内風景<span> - GYM -</span></h2>
+	<div class="responsive">
+		<div style="padding: 10px;">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/tikushino/gym1.jpg" alt="" />
+		</div>
+		<div style="padding: 10px;">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/tikushino/gym2.jpg" alt="" />
+		</div>
+		<div style="padding: 10px;">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/tikushino/gym3.jpg" alt="" />
+		</div>
+		<div style="padding: 10px;">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/tikushino/gym4.jpg" alt="" />
+		</div>
+		<div style="padding: 10px;">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/tikushino/gym5.jpg" alt="" />
+		</div>
+	</div>
 </div>
 </section>
 

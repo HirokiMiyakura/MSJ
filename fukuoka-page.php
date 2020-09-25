@@ -134,6 +134,23 @@ get_header(); ?>
 </section>
 
 <section>
+<div class="inner">
+	<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">店内風景<span> - GYM -</span></h2>
+	<div class="responsive">
+		<div style="padding: 10px;">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/tenjin/gym1.jpg" alt="" />
+		</div>
+		<div style="padding: 10px;">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/tenjin/gym2.jpg" alt="" />
+		</div>
+		<div style="padding: 10px;">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/tenjin/gym3.jpg" alt="" />
+		</div>
+	</div>
+</div>
+</section>
+
+<section>
 <h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">アクセス<span> - ACCESS -</span></h2>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.4246103775004!2d130.39256081555135!3d33.594285780733095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191895bc24eaf%3A0x6eeddc2d640cc909!2z44CSODEwLTAwMDEg56aP5bKh55yM56aP5bKh5biC5Lit5aSu5Yy65aSp56We77yT5LiB55uu77yZ4oiS77yR77yQIOWkqeelnuadvuS6leODk-ODqyAyRg!5e0!3m2!1sja!2sjp!4v1595583599011!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </section>
