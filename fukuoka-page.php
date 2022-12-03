@@ -177,7 +177,7 @@ get_header(); ?>
 			<p><a href="<?php echo home_url(); ?>/contact">メールでのお問い合わせ</a></p>
 		</div>
 		<div class="taikenContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-			<p><a href="tel:0905556659">電話でのお問い合わせ</a></p>
+			<p><a href="tel:0925556659">電話でのお問い合わせ</a></p>
 		</div>
 	</div>
 </div>

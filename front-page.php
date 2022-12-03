@@ -131,7 +131,7 @@
         </tr>
         <tr>
           <td>電話番号</td>
-          <td><a href="tel:0905556659">092-555-6659</a></td>
+          <td><a href="tel:0925556659">092-555-6659</a></td>
         </tr>
         <tr>
           <td>営業時間</td>
@@ -157,7 +157,7 @@
         </tr>
         <tr>
           <td>電話番号</td>
-          <td><a href="tel:0905556659">092-555-6659</a></td>
+          <td><a href="tel:0925556659">092-555-6659</a></td>
         </tr>
         <tr>
           <td>営業時間</td>
@@ -193,7 +193,7 @@
 	<p><a href="<?php echo home_url(); ?>/contact">メールでのお問い合わせ</a></p>
 	</div>
 	<div class="taikenContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-	<p><a href="tel:0905556659">電話でのお問い合わせ</a></p>
+	<p><a href="tel:0925556659">電話でのお問い合わせ</a></p>
 	</div>
 </div>
 </div>
