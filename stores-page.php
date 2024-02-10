@@ -74,12 +74,43 @@ get_header(); ?>
           <td>営業時間</td>
           <td>平日13:00~22:00 / 土曜日13:00~20:00</td>
 				</tr>
-				<tr>
+				<!-- <tr>
           <td>ニューオープン</td>
           <td><span class="big">入会金・手数料・初月料金無料！！</span></td>
-        </tr>
+        </tr> -->
       </table>
 			<p><a class="toDetails" href="<?php echo home_url(); ?>/price/tenjin">> 詳細ページへ</a></p>
+	</div>
+</div>
+<div class="gymContainer">
+	<div class="gymContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/top/store3.jpg" alt="" />
+	</div>
+	<div class="gymContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
+		<h3>六本松大濠店</h3>
+		<table class="footerTable">
+			<tr>
+				<td>住所</td>
+				<td>福岡市中央区六本松3丁目11-31SGビル3F</td>
+			</tr>
+			<tr>
+				<td>交通</td>
+				<td>地下鉄六本松駅徒歩6分</td>
+			</tr>
+			<tr>
+				<td>電話番号</td>
+				<td><a href="tel:0925556659">092-555-6659</a></td>
+			</tr>
+			<tr>
+				<td>営業時間</td>
+				<td>平日13:00~22:00 / 土曜日13:00~20:00</td>
+			</tr>
+			<tr>
+				<td>ニューオープン</td>
+				<td><span class="big">入会金・手数料・初月料金無料！！</span></td>
+			</tr>
+		</table>
+		<p><a class="toDetails" href="<?php echo home_url(); ?>/price/ropponmatsu">> 詳細ページへ</a></p>
 	</div>
 </div>
 </section>

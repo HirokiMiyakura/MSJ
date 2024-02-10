@@ -5,8 +5,8 @@
 get_header(); ?>
 <div class="your-class">
   <div>
-  	<h1>天神店 ~ TENJIN ~</h1>
-	<img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg2.png" alt="" />
+		<h1>天神店 ~ TENJIN ~</h1>
+		<img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg2.png" alt="" />
   </div>
 </div>
 <div class="breadcrumbsOuter">
@@ -20,117 +20,121 @@ get_header(); ?>
 	</div>
 </div>
 <section>
-<div class="inner">
-<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">天神店<span> ~ TENJIN ~</span></h2>
+	<div class="inner">
+		<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">天神店<span> ~ TENJIN ~</span></h2>
+		<h3 class="priceTitle">営業時間</h3>
+		<table class="classTable">
+			<thead>
+				<tr>
+					<th>曜日</th>
+					<th>時間</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>月曜 ~ 金曜</td>
+					<td>13:00 ~ 22:00</td>
+				</tr>
+				<tr>
+					<td>土曜</td>
+					<td>13:00 ~ 20:00</td>
+				</tr>
+			</tbody>
+		</table>
 
-<h3 class="priceTitle">営業時間</h3>
-<table class="classTable">
-<thead>
-<tr>
-<th>曜日</th>
-<th>時間</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>月曜 ~ 金曜</td>
-<td>13:00 ~ 22:00</td>
-</tr>
-<tr>
-<td>土曜</td>
-<td>13:00 ~ 20:00</td>
-</tr>
-</tbody>
-</table>
-
-<h3 class="priceTitle">スケジュール</h3>
-<table class="classTable">
-<thead>
-<tr>
-<th>コース</th>
-<th>曜日</th>
-<th>時間</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>フィットネスクラス</td>
-<td>月、水、金</td>
-<td>14:00 ~ 14:50</td>
-</tr>
-<tr>
-<td>フィットネスクラス</td>
-<td>月、金</td>
-<td>20:00 ~ 20:50</td>
-</tr>
-<tr>
-<td>Actual battleクラス</td>
-<td>水</td>
-<td>20:00 ~ 21:00</td>
-</tr>
-<tr>
-<td>女性限定フィットネスクラス</td>
-<td>火、木</td>
-<td>19:30 ~ 20:20</td>
-</tr>
-<tr>
-<td>フリークラス</td>
-<td>土曜・その他</td>
-<td>終日</td>
-</tr>
-</table>
-<h3 class="priceTitle">基本料金</h3>
-<table class="classTable">
-<thead>
-<tr>
-<th>対象</th>
-<th>会費/月（税別）</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>一般男性・一般女性</td>
-<td>10,000円</td>
-</tr>
-<tr>
-<td>一般女性</td>
-<td>10,000円</td>
-</tr>
-<tr>
-<td>中学生以下</td>
-<td>8,000円</td>
-</tr>
-</tbody>
-</table>
-<div>
-<ul class="schedule_bikou">
-<li><span>＊ 何日でも何時間でも通い放題</span></li>
-</ul>
-</div>
-<h3 class="priceTitle">その他料金</h3>
-<table class="classTable">
-<thead>
-<tr>
-<th>コース</th>
-<th>対象</th>
-<th>会費/月（税別）</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>入会金</td>
-<td>初回1回のみ</td>
-<td>10,000円</td>
-</tr>
-<tr>
-<td>入会手数料</td>
-<td>初回1回のみ</td>
-<td>3,000円</td>
-</tr>
-</tbody>
-</table>
-<!-- <p class="campaign">さらに、今なら初月無料キャンペーン実施中！！</p> -->
-</div>
+		<h3 class="priceTitle">プラン</h3>
+		<p>セミパーソナル（定額通い放題）</p>
+		<!-- <table class="classTable">
+			<thead>
+				<tr>
+					<th>コース</th>
+					<th>料金</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>セミパーソナル（定額通い放題）</td>
+					<td>11,000（税抜）</td>
+				</tr>
+			</tbody>
+		<thead>
+		<tr>
+		<th>コース</th>
+		<th>曜日</th>
+		<th>時間</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td>フィットネスクラス</td>
+		<td>月、水、金</td>
+		<td>14:00 ~ 14:50</td>
+		</tr>
+		<tr>
+		<td>フィットネスクラス</td>
+		<td>月、金</td>
+		<td>20:00 ~ 20:50</td>
+		</tr>
+		<tr>
+		<td>Actual battleクラス</td>
+		<td>水</td>
+		<td>20:00 ~ 21:00</td>
+		</tr>
+		<tr>
+		<td>女性限定フィットネスクラス</td>
+		<td>火、木</td>
+		<td>19:30 ~ 20:20</td>
+		</tr>
+		<tr>
+		<td>フリークラス</td>
+		<td>土曜・その他</td>
+		<td>終日</td>
+		</tr>
+		</table> -->
+		<h3 class="priceTitle">基本料金</h3>
+		<table class="classTable">
+			<thead>
+				<tr>
+					<th>対象</th>
+					<th>会費/月（税抜）</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>男性・女性</td>
+					<td>11,000円</td>
+				</tr>
+			</tbody>
+		</table>
+		<div>
+			<ul class="schedule_bikou">
+				<li><span>＊ 何日でも何時間でも通い放題</span></li>
+			</ul>
+		</div>
+		<h3 class="priceTitle">その他料金</h3>
+		<table class="classTable">
+			<thead>
+				<tr>
+					<th>コース</th>
+					<th>対象</th>
+					<th>会費/月（税抜）</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>入会金</td>
+					<td>初回1回のみ</td>
+					<td>10,000円</td>
+				</tr>
+				<tr>
+					<td>入会手数料</td>
+					<td>初回1回のみ</td>
+					<td>3,300円</td>
+				</tr>
+			</tbody>
+		</table>
+		<!-- <p class="campaign">さらに、今なら初月無料キャンペーン実施中！！</p> -->
+	</div>
 </section>
 
 <section>
