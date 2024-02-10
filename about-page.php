@@ -224,6 +224,10 @@ get_header(); ?>
 		<h3 data-aos="zoom-in-up" data-aos-duration="1000">筑紫野店</h3>
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d954.8763014141089!2d130.55249698631346!3d33.46344518296173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541994ac92d1051%3A0x8a38fab6b21377e0!2z44CSODE4LTAwMjIg56aP5bKh55yM562R57Sr6YeO5biC562R57Sr6aeF5YmN6YCa77yR5LiB55uu77yR!5e0!3m2!1sja!2sjp!4v1595583730039!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 	</div>
+	<div class="accessContainer__item">
+		<h3 data-aos="zoom-in-up" data-aos-duration="1000">六本松大濠店</h3>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.003542844021!2d130.37833061193723!3d33.57925727322752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354193d1d02c7cd5%3A0x78722c9758e63794!2z44CSODEwLTAwNDQg56aP5bKh55yM56aP5bKh5biC5Lit5aSu5Yy65YWt5pys5p2-77yT5LiB55uu77yR77yR4oiS77yT77yR!5e0!3m2!1sja!2sjp!4v1706491564144!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
 </div>
 </section>
 <?php get_footer(); ?>

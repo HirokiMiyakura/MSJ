@@ -43,7 +43,25 @@
           <td>平日13:00~22:00 / 土曜日13:00~20:00</td>
         </tr>
       </table>
-
+      <h6>六本松大濠店</h6>
+      <table class="footerTable">
+        <tr>
+          <td>住所</td>
+          <td>福岡市中央区六本松3丁目11-31SGビル3F</td>
+        </tr>
+        <tr>
+          <td>交通</td>
+          <td>地下鉄六本松駅徒歩6分</td>
+        </tr>
+        <tr>
+          <td>電話番号</td>
+          <td><a href="tel:0925556659">092-555-6659</a></td>
+        </tr>
+        <tr>
+          <td>営業時間</td>
+          <td>平日13:00~22:00 / 土曜日13:00~20:00</td>
+        </tr>
+      </table>
     </div>
     <div class="footerContainer__item">
       <h5>リンク</h5>
@@ -54,6 +72,7 @@
         <li><a href="<?php echo home_url(); ?>/stores/">店舗紹介</a></li>
         <li><a href="<?php echo home_url(); ?>/stores/tikushino/">筑紫野店</a></li>
         <li><a href="<?php echo home_url(); ?>/stores/tenjin/">天神店</a></li>
+        <li><a href="<?php echo home_url(); ?>/stores/ropponmatsu/">六本松大濠店</a></li>
         <li><a href="<?php echo home_url(); ?>/news/">ニュース</a></li>
         <li><a href="<?php echo home_url(); ?>/contact/">お問い合わせ</a></li>
       </ul>
