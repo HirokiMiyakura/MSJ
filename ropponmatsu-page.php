@@ -132,7 +132,7 @@ get_header(); ?>
 		</table>
 		<!-- <p class="campaign">さらに、今なら初月無料キャンペーン実施中！！</p> -->
 
-		<h3 class="priceTitle">スケジュール</h3>
+		<!-- <h3 class="priceTitle">スケジュール</h3>
 		<table class="scheduleTable">
 			<tbody>
 				<tr class="noBorder">
@@ -231,7 +231,7 @@ get_header(); ?>
 					<td></td>
 				</tr>
 			</tbody>
-		</table>
+		</table> -->
 	</div>
 </section>
 
@@ -240,19 +240,22 @@ get_header(); ?>
 	<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">店内風景<span> - GYM -</span></h2>
 	<div class="responsive">
 		<div style="padding: 10px;">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/tikushino/gym1.jpg" alt="" />
+			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/ropponmatsu/1.jpg" alt="" />
 		</div>
 		<div style="padding: 10px;">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/tikushino/gym2.jpg" alt="" />
+			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/ropponmatsu/2.jpg" alt="" />
 		</div>
 		<div style="padding: 10px;">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/tikushino/gym3.jpg" alt="" />
+			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/ropponmatsu/3.jpg" alt="" />
 		</div>
 		<div style="padding: 10px;">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/tikushino/gym4.jpg" alt="" />
+			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/ropponmatsu/4.jpg" alt="" />
 		</div>
 		<div style="padding: 10px;">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/tikushino/gym5.jpg" alt="" />
+			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/ropponmatsu/5.jpg" alt="" />
+		</div>
+		<div style="padding: 10px;">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/stores/ropponmatsu/5.jpg" alt="" />
 		</div>
 	</div>
 </div>
