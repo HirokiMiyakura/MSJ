@@ -73,6 +73,7 @@
         <li><a href="<?php echo home_url(); ?>/stores/tikushino/">筑紫野店</a></li>
         <li><a href="<?php echo home_url(); ?>/stores/tenjin/">天神店</a></li>
         <li><a href="<?php echo home_url(); ?>/stores/ropponmatsu/">六本松大濠店</a></li>
+        <li><a href="<?php echo home_url(); ?>/trainer/">トレーナー紹介</a></li>
         <li><a href="<?php echo home_url(); ?>/news/">ニュース</a></li>
         <li><a href="<?php echo home_url(); ?>/contact/">お問い合わせ</a></li>
       </ul>
