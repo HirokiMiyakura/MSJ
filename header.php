@@ -49,6 +49,9 @@ conditionizr.config({
 		<a href="<?php echo home_url(); ?>/stores/">店舗紹介</a>
 		</div>
 		<div class="headerNavigationContainer__item">
+		<a href="<?php echo home_url(); ?>/trainer/">トレーナー紹介</a>
+		</div>
+		<div class="headerNavigationContainer__item">
 		<a href="<?php echo home_url(); ?>/news/">ニュース</a>
 		</div>
 		<div class="headerNavigationContainer__item">
@@ -63,6 +66,7 @@ conditionizr.config({
 					<li><a href="<?php echo home_url(); ?>/guidance/">入会案内</a></li>
 					<li><a href="<?php echo home_url(); ?>/class/">クラス紹介</a></li>
 					<li><a href="<?php echo home_url(); ?>/stores/">店舗紹介</a></li>
+					<li><a href="<?php echo home_url(); ?>/trainer/">トレーナー紹介</a></li>
 					<li><a href="<?php echo home_url(); ?>/news/">ニュース</a></li>
 					<li><a href="<?php echo home_url(); ?>/contact/">お問い合わせ</a></li>
 				</ul>
