@@ -23,7 +23,7 @@
 		</div>
 	</div>
 </div>
-<section>
+<!-- <section>
 <div class="inner">
 <h2 class="title">キャンペーン<span> - CAMPAIGN -</span></h2>
 	<div class="campaignOuter inner">
@@ -43,11 +43,10 @@
 				<h4>初月会費が<span>¥0</span></h4>
 			</div>
 		</div>
-		<!-- <h3 class="addText">さらに、他店舗も3月までに御入会で初月会費&入会事務手数料0円キャンペーン実施中</h3> -->
 	</div>
 	<h3 class="addText">さらに、<br class="sp">他店舗も3月までに御入会で初月会費&入会事務手数料0円キャンペーン実施中</h3>
 </div>
-</section>
+</section> -->
 <section>
 <h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">MSJの特徴<span> - FEATURES -</span></h2>
 <div class="bg">
