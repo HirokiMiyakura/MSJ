@@ -23,6 +23,34 @@
 		</div>
 	</div>
 </div>
+<!-- 日曜営業バナー -->
+<div class="sundayBanner">
+	<div class="sundayBanner__inner">
+		<span class="sundayBanner__new">NEW</span>
+		<span class="sundayBanner__text">&#128197; 日曜日の営業がスタートしました！（筑紫野店、天神店）</span>
+		<span class="sundayBanner__sep">|</span>
+		<span class="sundayBanner__day">毎週日曜日</span>
+		<span class="sundayBanner__time">11:00 〜 17:00</span>
+	</div>
+</div>
+
+<!-- パーソナルトレーニング訴求 -->
+<div class="ptSection">
+	<div class="ptSection__watermark">PERSONAL TRAINING</div>
+	<div class="ptSection__inner">
+		<div class="ptSection__icon">&#x1F4AA;</div>
+		<div class="ptSection__content">
+			<span class="ptSection__badge">RENEWAL</span>
+			<h2 class="ptSection__title">パーソナルトレーニング<br><span>コース</span>、受付開始！</h2>
+			<p class="ptSection__desc">専属トレーナーによるマンツーマン指導で、あなたの目標へ最速で。<br>プロを目指す方から、ダイエット・体力向上まで幅広く対応。</p>
+		</div>
+		<div class="ptSection__cta">
+			<a href="<?php echo home_url(); ?>/contact" class="ptSection__btn">無料体験を申し込む</a>
+			<a href="<?php echo home_url(); ?>/personal-training" class="ptSection__link">詳しくはこちら →</a>
+		</div>
+	</div>
+</div>
+
 <!-- <section>
 <div class="inner">
 <h2 class="title">パーソナルトレーニングリニューアル<span> - CAMPAIGN -</span></h2>

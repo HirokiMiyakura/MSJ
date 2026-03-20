@@ -90,35 +90,85 @@ get_header(); ?>
 
 		<h3 class="priceTitle">スケジュール</h3>
 
+		<!-- 新スケジュールデザイン -->
+		<div class="scheduleNew">
+			<div class="scheduleNew__legend">
+				<div class="scheduleNew__legend-item"><span class="scheduleNew__badge sn-free"></span>フリートレーニング</div>
+				<div class="scheduleNew__legend-item"><span class="scheduleNew__badge sn-kickfit"></span>キックフィットクラス</div>
+				<div class="scheduleNew__legend-item"><span class="scheduleNew__badge sn-ladies"></span>レディースクラス</div>
+			</div>
+			<div class="scheduleNew__tableWrap">
+				<table class="scheduleNew__table">
+					<thead>
+						<tr>
+							<th class="sn-time-col"></th>
+							<th>月</th>
+							<th>火</th>
+							<th>水</th>
+							<th>木</th>
+							<th>金</th>
+							<th>土</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="sn-time">11:00</td>
+							<td></td><td></td><td></td><td></td><td></td><td></td>
+						</tr>
+						<tr>
+							<td class="sn-time">12:00</td>
+							<td></td><td></td><td></td><td></td><td></td><td></td>
+						</tr>
+						<tr>
+							<td class="sn-time">13:00</td>
+							<td></td>
+							<td class="sn-free" rowspan="12">フリー<br>トレーニング</td>
+							<td class="sn-free" rowspan="6">フリー<br>トレーニング</td>
+							<td class="sn-free" rowspan="12">フリー<br>トレーニング</td>
+							<td class="sn-free" rowspan="12">フリー<br>トレーニング</td>
+							<td class="sn-free" rowspan="8">フリー<br>トレーニング</td>
+						</tr>
+						<tr><td class="sn-time">14:00</td><td></td></tr>
+						<tr><td class="sn-time">15:00</td><td></td></tr>
+						<tr><td class="sn-time">16:00</td><td></td></tr>
+						<tr><td class="sn-time">17:00</td><td></td></tr>
+						<tr>
+							<td class="sn-time">18:00</td>
+							<td class="sn-free">フリー<br>トレーニング</td>
+						</tr>
+						<tr>
+							<td class="sn-time">19:00</td>
+							<td class="sn-kickfit" rowspan="2">キックフィット<br>クラス</td>
+							<td class="sn-ladies" rowspan="2">レディース<br>クラス</td>
+						</tr>
+						<tr><td class="sn-time">19:30</td></tr>
+						<tr>
+							<td class="sn-time">20:00</td>
+							<td class="sn-free" rowspan="4">フリー<br>トレーニング</td>
+							<td class="sn-free" rowspan="4">フリー<br>トレーニング</td>
+							<td></td>
+						</tr>
+						<tr><td class="sn-time">20:30</td><td></td></tr>
+						<tr><td class="sn-time">21:00</td><td></td></tr>
+						<tr><td class="sn-time">22:00</td><td></td></tr>
+						<tr>
+							<td class="sn-time">23:00</td>
+							<td></td><td></td><td></td><td></td><td></td><td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<!-- 旧スケジュールテーブル（コメントアウト）
 		<table class="scheduleTable">
 			<tbody>
 				<tr class="noBorder">
 					<td></td>
-					<td>月</td>
-					<td>火</td>
-					<td>水</td>
-					<td>木</td>
-					<td>金</td>
-					<td>土</td>
+					<td>月</td><td>火</td><td>水</td><td>木</td><td>金</td><td>土</td>
 				</tr>
-				<tr>
-					<td>11:00</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>12:00</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
+				<tr><td>11:00</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				<tr><td>12:00</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 				<tr>
 					<td>13:00</td>
 					<td></td>
@@ -128,63 +178,33 @@ get_header(); ?>
 					<td class="freetrainingClass" rowspan="12">フリー<br>トレーニング</td>
 					<td class="freetrainingClass" rowspan="8">フリー<br>トレーニング</td>
 				</tr>
-				<tr>
-					<td>14:00</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>15:00</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>16:00</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>17:00</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>18:00</td>
-					<td class="freetrainingClass">フリー<br>トレーニング</td>
-				</tr>
+				<tr><td>14:00</td><td></td></tr>
+				<tr><td>15:00</td><td></td></tr>
+				<tr><td>16:00</td><td></td></tr>
+				<tr><td>17:00</td><td></td></tr>
+				<tr><td>18:00</td><td class="freetrainingClass">フリー<br>トレーニング</td></tr>
 				<tr>
 					<td>19:00</td>
 					<td class="kickfitClass" rowspan="2">キックフィット<br>クラス</td>
 					<td class="ladiesClass" rowspan="2">レディース<br>クラス</td>
 				</tr>
-				<tr>
-					<td>19:30</td>
-				</tr>
+				<tr><td>19:30</td></tr>
 				<tr>
 					<td>20:00</td>
 					<td class="freetrainingClass" rowspan="4">フリー<br>トレーニング</td>
 					<td class="freetrainingClass" rowspan="4">フリー<br>トレーニング</td>
 					<td></td>
 				</tr>
-				<tr>
-					<td>20:30</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>21:00</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>22:00</td>
-					<td></td>
-				</tr>
+				<tr><td>20:30</td><td></td></tr>
+				<tr><td>21:00</td><td></td></tr>
+				<tr><td>22:00</td><td></td></tr>
 				<tr class="noBorder">
 					<td>23:00</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td>
 				</tr>
 			</tbody>
 		</table>
+		-->
 		
 	</div>
 </section>
