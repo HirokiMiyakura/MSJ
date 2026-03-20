@@ -172,42 +172,93 @@ section {
 }
 
 header {
-  position: absolute;
   position: relative;
-  z-index: 1;
-  height: 72px;
-  letter-spacing: 0.1em;
-  border-top: 4px solid #ffcccc;
-  border-top: 2px solid deeppink;
-  background-color: #000;
+  z-index: 100;
+  background-color: #0a0a0a;
+  border-top: 3px solid deeppink;
   width: 100%;
 }
 header .headerInner {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 1080px;
-  min-height: 70px;
+  min-height: 76px;
   margin: 0 auto;
 }
-header .headerInner .logo {
-  position: absolute;
-  padding: 24px;
-  font-weight: 900;
+header .logo {
+  flex-shrink: 0;
 }
-header .headerInner .logo a {
+header .logo a {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  text-decoration: none;
+}
+header .logo__brand {
+  font-size: 1.8em;
+  font-weight: 900;
+  font-style: italic;
+  color: deeppink;
+  letter-spacing: 0.05em;
+  line-height: 1;
+}
+header .logo__sub {
+  font-size: 0.6em;
+  font-weight: 700;
+  color: #888;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+header .headerNavigationContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+header .headerNavigationContainer__item a {
+  display: block;
+  position: relative;
+  color: #ccc;
+  font-size: 0.78em;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  padding: 8px 10px;
+  transition: color 0.2s;
+}
+header .headerNavigationContainer__item a::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 10px;
+  right: 10px;
+  height: 1px;
+  background: deeppink;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+header .headerNavigationContainer__item a:hover {
   color: #fff;
 }
-header .headerInner .headerNavigationContainer {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: right;
-  position: absolute;
-  right: 0;
+header .headerNavigationContainer__item a:hover::after {
+  transform: scaleX(1);
 }
-header .headerInner .headerNavigationContainer__item {
-  padding: 24px 10px;
+header .headerNavigationContainer__item--cta {
+  margin-left: 8px;
 }
-header .headerInner .headerNavigationContainer__item a {
+header .headerNavigationContainer__item--cta a {
+  background-color: deeppink;
+  color: #fff;
+  font-weight: 700;
+  padding: 8px 18px;
+  letter-spacing: 0.1em;
+  border-radius: 2px;
+}
+header .headerNavigationContainer__item--cta a::after {
+  display: none;
+}
+header .headerNavigationContainer__item--cta a:hover {
+  background-color: #e0006e;
   color: #fff;
 }
 
@@ -1222,6 +1273,7 @@ input[type=submit] {
 @media screen and (max-width: 1080px) {
   header .headerInner {
     width: 100%;
+    padding: 0 16px;
   }
   .inner {
     width: 100%;
@@ -1254,13 +1306,22 @@ input[type=submit] {
   }
   header .headerInner {
     width: 100%;
-    min-height: 70px;
+    min-height: 64px;
+    padding: 0 16px;
   }
-  header .headerInner .logo {
-    padding: 24px;
+  header .logo__brand {
+    font-size: 1.5em;
   }
-  header .headerInner .headerNavigationContainer {
+  header .logo__sub {
     display: none;
+  }
+  header .headerNavigationContainer {
+    display: none;
+  }
+  nav .nav__cta a {
+    background-color: deeppink;
+    color: #fff !important;
+    font-weight: 700;
   }
   .your-class div h1 {
     padding-top: 70px;
