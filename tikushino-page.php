@@ -447,31 +447,5 @@ get_header(); ?>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d954.8763014141089!2d130.55249698631346!3d33.46344518296173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541994ac92d1051%3A0x8a38fab6b21377e0!2z44CSODE4LTAwMjIg56aP5bKh55yM562R57Sr6YeO5biC562R57Sr6aeF5YmN6YCa77yR5LiB55uu77yR!5e0!3m2!1sja!2sjp!4v1595583730039!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </section>
 
-<section class="topTaiken">
-<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">無料体験レッスン受付中<span> - FREE TRIAL -</span></h2>
-<div class="inner">
-	<div class="taikenDescContainer">
-		<div class="taikenDescContainer__item">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/top/trial1.jpg" alt="" />
-			<p>女性・男性・子供と多くの方が無料体験レッスンで楽しさを実感しています。</p>
-		</div>
-		<div class="taikenDescContainer__item">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/top/trial2.jpg" alt="" />
-			<p>ジュニアクラスは、キックボクシングを学びながら心身共に強く心優しい人間に成長させます。</p>
-		</div>
-		<div class="taikenDescContainer__item">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/top/trial3.png" alt="" />
-			<p>パンチとキックの全身運動でダイエット、ストレス解消、護身にもなります。</p>
-		</div>
-	</div>
-	<div class="taikenContainer">
-		<div class="taikenContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-			<p><a href="<?php echo home_url(); ?>/contact">メールでのお問い合わせ</a></p>
-		</div>
-		<div class="taikenContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-			<p><a href="tel:0925556659">電話でのお問い合わせ</a></p>
-		</div>
-	</div>
-</div>
-</section>
+<?php get_template_part('template-parts/trial-section'); ?>
 <?php get_footer(); ?>

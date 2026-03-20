@@ -125,17 +125,5 @@ get_header(); ?>
 	</div>
 </div>
 
-<section class="topTaiken">
-<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">無料体験レッスン受付中<span> - FREE TRIAL -</span></h2>
-<div class="inner">
-	<div class="taikenContainer">
-		<div class="taikenContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-			<p><a href="<?php echo home_url(); ?>/contact">メールでのお問い合わせ</a></p>
-		</div>
-		<div class="taikenContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-			<p><a href="tel:0925556659">電話でのお問い合わせ</a></p>
-		</div>
-	</div>
-</div>
-</section>
+<?php get_template_part('template-parts/trial-section'); ?>
 <?php get_footer(); ?>

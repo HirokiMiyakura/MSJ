@@ -26,20 +26,36 @@ nav {
 	left: -300px;
 	bottom: 0;
 	width: 300px;
-	background: #ffffff;
+	background: #0d0d0d;
+	border-right: 1px solid #1f1f1f;
 	overflow-x: hidden;
 	overflow-y: auto;
 	-webkit-overflow-scrolling: touch;
-	transition: all 0.5s;
+	transition:
+		left 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+		opacity 0.4s;
 	z-index: 3;
 	opacity: 0;
+
+	// ロゴエリア
+	&::before {
+		content: 'MSJ';
+		display: block;
+		font-size: 2em;
+		font-weight: 900;
+		font-style: italic;
+		color: $mainColor;
+		letter-spacing: 0.05em;
+		padding: 32px 28px 24px;
+		border-bottom: 1px solid #1f1f1f;
+	}
 }
 .open nav {
 	left: 0;
 	opacity: 1;
 }
 nav .inner {
-	padding: 25px;
+	padding: 8px 0;
 }
 nav .inner ul {
 	list-style: none;
@@ -49,23 +65,69 @@ nav .inner ul {
 nav .inner ul li {
 	position: relative;
 	margin: 0;
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid #1a1a1a;
 }
 nav .inner ul li a {
-	display: block;
-	color: #333;
-	font-size: 14px;
-	padding: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #ccc;
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: 0.12em;
+	padding: 18px 28px;
 	text-decoration: none;
-	transition-duration: 0.2s;
+	transition:
+		color 0.2s,
+		border-color 0.2s;
+	border-left: 3px solid transparent;
+
+	&::after {
+		content: '›';
+		font-size: 1.2em;
+		color: #444;
+		transition:
+			color 0.2s,
+			transform 0.2s;
+	}
 }
 nav .inner ul li a:hover {
-	background: #e4e4e4;
+	color: #fff;
+	border-left-color: $mainColor;
+
+	&::after {
+		color: $mainColor;
+		transform: translateX(3px);
+	}
+}
+nav .inner ul li.nav__cta {
+	margin: 20px 20px 8px;
+	border: none;
+
+	a {
+		background-color: $mainColor;
+		color: #fff;
+		font-weight: 700;
+		border-radius: 2px;
+		border-left: none;
+		justify-content: center;
+		letter-spacing: 0.1em;
+
+		&::after {
+			display: none;
+		}
+
+		&:hover {
+			background-color: #e0006e;
+			color: #fff;
+			border-left-color: transparent;
+		}
+	}
 }
 @media screen and (max-width: 767px) {
 	nav {
-		left: -220px;
-		width: 220px;
+		left: -280px;
+		width: 280px;
 	}
 }
 /*============
@@ -74,7 +136,7 @@ nav .inner ul li a:hover {
 .toggle_btn {
 	display: block;
 	position: absolute;
-	top: 24px;
+	top: 18px;
 	right: 30px;
 	width: 30px;
 	height: 30px;
@@ -129,8 +191,8 @@ nav .inner ul li a:hover {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #000;
-	opacity: 0.8;
+	background: rgba(0, 0, 0, 0.85);
+	backdrop-filter: blur(2px);
 	z-index: 2;
 	cursor: pointer;
 }
@@ -1000,6 +1062,207 @@ input[type='submit'] {
 	}
 }
 
+// 無料体験セクション（新デザイン）
+
+.trialSection {
+	background: #0a0a0a;
+	padding: 100px 0;
+	text-align: center;
+
+	&__head {
+		margin-bottom: 40px;
+	}
+
+	&__eyecatch {
+		color: $mainColor;
+		font-size: 0.8em;
+		font-weight: 700;
+		letter-spacing: 0.3em;
+		margin-bottom: 16px;
+	}
+
+	&__title {
+		font-size: 2.2em;
+		font-weight: 900;
+		color: #fff;
+		line-height: 1.4;
+		margin-bottom: 20px;
+		letter-spacing: 0.03em;
+	}
+
+	&__sub {
+		color: #bbb;
+		font-size: 0.95em;
+		line-height: 1.9;
+	}
+
+	&__badges {
+		display: flex;
+		justify-content: center;
+		gap: 12px;
+		flex-wrap: wrap;
+		margin-bottom: 60px;
+	}
+
+	&__badge {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		background: #1a1a1a;
+		border: 1px solid #2a2a2a;
+		color: #fff;
+		font-size: 0.85em;
+		font-weight: 700;
+		letter-spacing: 0.1em;
+		padding: 10px 20px;
+		border-radius: 40px;
+	}
+
+	&__badge-icon {
+		color: $mainColor;
+		font-weight: 900;
+	}
+
+	&__photos {
+		display: flex;
+		gap: 0;
+		margin-bottom: 72px;
+	}
+
+	&__photo {
+		flex: 1;
+		position: relative;
+		overflow: hidden;
+
+		img {
+			width: 100%;
+			height: 280px;
+			object-fit: cover;
+			display: block;
+			transition: transform 0.5s ease;
+		}
+
+		&:hover img {
+			transform: scale(1.04);
+		}
+
+		p {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+			color: #fff;
+			font-size: 0.8em;
+			line-height: 1.7;
+			padding: 32px 16px 16px;
+			text-align: left;
+		}
+	}
+
+	&__flow {
+		margin-bottom: 64px;
+	}
+
+	&__flowTitle {
+		color: #bbb;
+		font-size: 1em;
+		font-weight: 700;
+		letter-spacing: 0.3em;
+		text-transform: uppercase;
+		margin-bottom: 28px;
+	}
+
+	&__flowSteps {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 16px;
+	}
+
+	&__step {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+	}
+
+	&__stepNum {
+		width: 56px;
+		height: 56px;
+		border-radius: 50%;
+		background: $mainColor;
+		color: #fff;
+		font-size: 1em;
+		font-weight: 900;
+		font-style: italic;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__stepText {
+		color: #ccc;
+		font-size: 0.95em;
+		line-height: 1.7;
+	}
+
+	&__stepArrow {
+		color: #333;
+		font-size: 2em;
+		margin-bottom: 24px;
+	}
+
+	&__cta {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 16px;
+	}
+
+	&__ctaBtn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 12px;
+		width: 420px;
+		padding: 20px 32px;
+		font-size: 1.05em;
+		font-weight: 900;
+		letter-spacing: 0.1em;
+		transition:
+			opacity 0.2s,
+			transform 0.2s;
+
+		&:hover {
+			opacity: 0.85;
+			transform: translateY(-2px);
+		}
+
+		&--mail {
+			background: $mainColor;
+			color: #fff;
+		}
+
+		&--tel {
+			background: #1a1a1a;
+			border: 1px solid #333;
+			color: #fff;
+		}
+	}
+
+	&__ctaIcon {
+		font-size: 1.1em;
+	}
+
+	&__ctaNote {
+		color: #555;
+		font-size: 0.78em;
+		letter-spacing: 0.05em;
+		margin-top: 4px;
+	}
+}
+
 // スケジュール（新デザイン）
 
 .scheduleNew {
@@ -1031,13 +1294,27 @@ input[type='submit'] {
 		border-radius: 2px;
 		flex-shrink: 0;
 
-		&.sn-free    { background: #2563eb; }
-		&.sn-junior  { background: #b3093f; }
-		&.sn-pro     { background: #451531; }
-		&.sn-fitness { background: #0e7fa5; }
-		&.sn-bodymake{ background: #ff3877; }
-		&.sn-kickfit { background: #ff8c00; }
-		&.sn-ladies  { background: #c75ba0; }
+		&.sn-free {
+			background: #2563eb;
+		}
+		&.sn-junior {
+			background: #b3093f;
+		}
+		&.sn-pro {
+			background: #451531;
+		}
+		&.sn-fitness {
+			background: #0e7fa5;
+		}
+		&.sn-bodymake {
+			background: #ff3877;
+		}
+		&.sn-kickfit {
+			background: #ff8c00;
+		}
+		&.sn-ladies {
+			background: #c75ba0;
+		}
 	}
 
 	&__tableWrap {
@@ -1388,6 +1665,39 @@ input[type='submit'] {
 				font-size: 10px !important;
 				padding: 8px 2px;
 			}
+		}
+	}
+
+	.trialSection {
+		padding: 60px 16px;
+
+		&__title {
+			font-size: 1.5em;
+		}
+
+		&__photos {
+			flex-direction: column;
+		}
+
+		&__photo img {
+			height: 220px;
+		}
+
+		&__flowSteps {
+			flex-wrap: wrap;
+			gap: 8px;
+		}
+
+		&__stepArrow {
+			display: none;
+		}
+
+		&__step {
+			width: 45%;
+		}
+
+		&__ctaBtn {
+			width: 100%;
 		}
 	}
 
