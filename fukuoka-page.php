@@ -97,37 +97,93 @@ get_header(); ?>
 
 		<h3 class="priceTitle">スケジュール</h3>
 
+		<!-- 新スケジュールデザイン -->
+		<div class="scheduleNew">
+			<div class="scheduleNew__legend">
+				<div class="scheduleNew__legend-item"><span class="scheduleNew__badge sn-free"></span>フリートレーニング</div>
+				<div class="scheduleNew__legend-item"><span class="scheduleNew__badge sn-kickfit"></span>キックフィットクラス</div>
+				<div class="scheduleNew__legend-item"><span class="scheduleNew__badge sn-ladies"></span>レディースクラス</div>
+			</div>
+			<div class="scheduleNew__tableWrap">
+				<table class="scheduleNew__table">
+					<thead>
+						<tr>
+							<th class="sn-time-col"></th>
+							<th>月</th>
+							<th>火</th>
+							<th>水</th>
+							<th>木</th>
+							<th>金</th>
+							<th>土</th>
+							<th>日</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="sn-time">11:00</td>
+							<td></td><td></td><td></td><td></td><td></td><td></td>
+							<td class="sn-free" rowspan="6">フリー<br>トレーニング</td>
+						</tr>
+						<tr>
+							<td class="sn-time">12:00</td>
+							<td></td><td></td><td></td><td></td><td></td><td></td>
+						</tr>
+						<tr>
+							<td class="sn-time">13:00</td>
+							<td></td>
+							<td class="sn-free" rowspan="12">フリー<br>トレーニング</td>
+							<td class="sn-free" rowspan="6">フリー<br>トレーニング</td>
+							<td class="sn-free" rowspan="12">フリー<br>トレーニング</td>
+							<td class="sn-free" rowspan="12">フリー<br>トレーニング</td>
+							<td class="sn-free" rowspan="8">フリー<br>トレーニング</td>
+						</tr>
+						<tr><td class="sn-time">14:00</td><td></td></tr>
+						<tr><td class="sn-time">15:00</td><td></td></tr>
+						<tr><td class="sn-time">16:00</td><td></td></tr>
+						<tr><td class="sn-time">17:00</td><td></td><td></td></tr>
+						<tr>
+							<td class="sn-time">18:00</td>
+							<td class="sn-free">フリー<br>トレーニング</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="sn-time">19:00</td>
+							<td class="sn-kickfit" rowspan="2">キックフィット<br>クラス</td>
+							<td class="sn-ladies" rowspan="2">レディース<br>クラス</td>
+							<td></td>
+						</tr>
+						<tr><td class="sn-time">19:30</td><td></td></tr>
+						<tr>
+							<td class="sn-time">20:00</td>
+							<td class="sn-free" rowspan="4">フリー<br>トレーニング</td>
+							<td class="sn-free" rowspan="4">フリー<br>トレーニング</td>
+							<td></td><td></td>
+						</tr>
+						<tr><td class="sn-time">20:30</td><td></td><td></td></tr>
+						<tr><td class="sn-time">21:00</td><td></td><td></td></tr>
+						<tr><td class="sn-time">22:00</td><td></td><td></td></tr>
+						<tr>
+							<td class="sn-time">23:00</td>
+							<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<!-- 旧スケジュールテーブル（コメントアウト）
 		<table class="scheduleTable">
 			<tbody>
 				<tr class="noBorder">
 					<td></td>
-					<td>月</td>
-					<td>火</td>
-					<td>水</td>
-					<td>木</td>
-					<td>金</td>
-					<td>土</td>
-					<td>日</td>
+					<td>月</td><td>火</td><td>水</td><td>木</td><td>金</td><td>土</td><td>日</td>
 				</tr>
 				<tr>
 					<td>11:00</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td>
 					<td class="freetrainingClass" rowspan="6">フリー<br>トレーニング</td>
 				</tr>
-				<tr>
-					<td>12:00</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
+				<tr><td>12:00</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 				<tr>
 					<td>13:00</td>
 					<td></td>
@@ -137,72 +193,34 @@ get_header(); ?>
 					<td class="freetrainingClass" rowspan="12">フリー<br>トレーニング</td>
 					<td class="freetrainingClass" rowspan="8">フリー<br>トレーニング</td>
 				</tr>
-				<tr>
-					<td>14:00</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>15:00</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>16:00</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>17:00</td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>18:00</td>
-					<td class="freetrainingClass">フリー<br>トレーニング</td>
-					<td></td>
-				</tr>
+				<tr><td>14:00</td><td></td></tr>
+				<tr><td>15:00</td><td></td></tr>
+				<tr><td>16:00</td><td></td></tr>
+				<tr><td>17:00</td><td></td><td></td></tr>
+				<tr><td>18:00</td><td class="freetrainingClass">フリー<br>トレーニング</td><td></td></tr>
 				<tr>
 					<td>19:00</td>
 					<td class="kickfitClass" rowspan="2">キックフィット<br>クラス</td>
 					<td class="ladiesClass" rowspan="2">レディース<br>クラス</td>
 					<td></td>
 				</tr>
-				<tr>
-					<td>19:30</td>
-					<td></td>
-				</tr>
+				<tr><td>19:30</td><td></td></tr>
 				<tr>
 					<td>20:00</td>
 					<td class="freetrainingClass" rowspan="4">フリー<br>トレーニング</td>
 					<td class="freetrainingClass" rowspan="4">フリー<br>トレーニング</td>
-					<td></td>
-					<td></td>
+					<td></td><td></td>
 				</tr>
-				<tr>
-					<td>20:30</td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>21:00</td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>22:00</td>
-					<td></td>
-					<td></td>
-				</tr>
+				<tr><td>20:30</td><td></td><td></td></tr>
+				<tr><td>21:00</td><td></td><td></td></tr>
+				<tr><td>22:00</td><td></td><td></td></tr>
 				<tr class="noBorder">
 					<td>23:00</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 				</tr>
 			</tbody>
 		</table>
+		-->
 
 	</div>
 </section>
@@ -229,31 +247,5 @@ get_header(); ?>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.4246103775004!2d130.39256081555135!3d33.594285780733095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191895bc24eaf%3A0x6eeddc2d640cc909!2z44CSODEwLTAwMDEg56aP5bKh55yM56aP5bKh5biC5Lit5aSu5Yy65aSp56We77yT5LiB55uu77yZ4oiS77yR77yQIOWkqeelnuadvuS6leODk-ODqyAyRg!5e0!3m2!1sja!2sjp!4v1595583599011!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </section>
 
-<section class="topTaiken">
-<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">無料体験レッスン受付中<span> - FREE TRIAL -</span></h2>
-<div class="inner">
-	<div class="taikenDescContainer">
-		<div class="taikenDescContainer__item">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/top/trial1.jpg" alt="" />
-			<p>女性・男性・子供と多くの方が無料体験レッスンで楽しさを実感しています。</p>
-		</div>
-		<div class="taikenDescContainer__item">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/top/trial2.jpg" alt="" />
-			<p>ジュニアクラスは、キックボクシングを学びながら心身共に強く心優しい人間に成長させます。</p>
-		</div>
-		<div class="taikenDescContainer__item">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/top/trial3.png" alt="" />
-			<p>パンチとキックの全身運動でダイエット、ストレス解消、護身にもなります。</p>
-		</div>
-	</div>
-	<div class="taikenContainer">
-		<div class="taikenContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-			<p><a href="<?php echo home_url(); ?>/contact">メールでのお問い合わせ</a></p>
-		</div>
-		<div class="taikenContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-			<p><a href="tel:0925556659">電話でのお問い合わせ</a></p>
-		</div>
-	</div>
-</div>
-</section>
+<?php get_template_part('template-parts/trial-section'); ?>
 <?php get_footer(); ?>

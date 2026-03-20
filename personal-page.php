@@ -19,6 +19,30 @@ get_header(); ?>
 		</div>
 	</div>
 </div>
+<!-- パーソナルの魅力 -->
+<section class="ptAppeal">
+	<div class="inner">
+		<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">パーソナルトレーニングの魅力<span> - WHY PERSONAL -</span></h2>
+		<div class="ptAppeal__grid">
+			<div class="ptAppeal__item" data-aos="zoom-in-up" data-aos-duration="700">
+				<div class="ptAppeal__icon">&#x1F3C6;</div>
+				<h3>一流プロが直接指導</h3>
+				<p>世界王者・日本王者・現役プロ選手があなたに直接マンツーマンで指導します。一般のジムでは体験できないレベルの技術と知識を、あなたのものに。</p>
+			</div>
+			<div class="ptAppeal__item" data-aos="zoom-in-up" data-aos-duration="900">
+				<div class="ptAppeal__icon">&#x1F4CB;</div>
+				<h3>完全オーダーメイドプログラム</h3>
+				<p>目標・体力・スケジュールに合わせた専用プログラムを作成。無駄なく最速で結果を出すために、あなただけのメニューで継続的にサポートします。</p>
+			</div>
+			<div class="ptAppeal__item" data-aos="zoom-in-up" data-aos-duration="1100">
+				<div class="ptAppeal__icon">&#x1F3AF;</div>
+				<h3>目的別に幅広く対応</h3>
+				<p>プロを目指す選手から、ダイエット・体力向上・健康維持・護身術まで、あなたの目的に合ったコースで確かな成果へ導きます。</p>
+			</div>
+		</div>
+	</div>
+</section>
+
 <section>
 	<div class="inner">
 		<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">パーソナルトレーニング<span> ~ PERSONAL ~</span></h2>
@@ -86,17 +110,20 @@ get_header(); ?>
 	</div>
 </section>
 
-<section class="topTaiken">
-<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">無料体験レッスン受付中<span> - FREE TRIAL -</span></h2>
-<div class="inner">
-	<div class="taikenContainer">
-		<div class="taikenContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-			<p><a href="<?php echo home_url(); ?>/contact">メールでのお問い合わせ</a></p>
+<!-- 申し込み誘導CTAバナー -->
+<div class="ptCtaBanner">
+	<div class="ptCtaBanner__inner">
+		<div class="ptCtaBanner__text">
+			<p class="ptCtaBanner__sub">まずは気軽に体験してみてください</p>
+			<h2 class="ptCtaBanner__title">無料体験、受付中</h2>
+			<p class="ptCtaBanner__desc">入会前に実際のトレーニングを無料でお試しいただけます。<br>トレーナーへの相談・質問もお気軽にどうぞ。</p>
 		</div>
-		<div class="taikenContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-			<p><a href="tel:0925556659">電話でのお問い合わせ</a></p>
+		<div class="ptCtaBanner__buttons">
+			<a href="<?php echo home_url(); ?>/contact" class="ptCtaBanner__btn ptCtaBanner__btn--mail">メールで申し込む</a>
+			<a href="tel:0925556659" class="ptCtaBanner__btn ptCtaBanner__btn--tel">&#x260E; 092-555-6659</a>
 		</div>
 	</div>
 </div>
-</section>
+
+<?php get_template_part('template-parts/trial-section'); ?>
 <?php get_footer(); ?>

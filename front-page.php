@@ -23,6 +23,34 @@
 		</div>
 	</div>
 </div>
+<!-- 日曜営業バナー -->
+<div class="sundayBanner">
+	<div class="sundayBanner__inner">
+		<span class="sundayBanner__new">NEW</span>
+		<span class="sundayBanner__text">&#128197; 日曜日の営業がスタートしました！（筑紫野店、天神店）</span>
+		<span class="sundayBanner__sep">|</span>
+		<span class="sundayBanner__day">毎週日曜日</span>
+		<span class="sundayBanner__time">11:00 〜 17:00</span>
+	</div>
+</div>
+
+<!-- パーソナルトレーニング訴求 -->
+<div class="ptSection">
+	<div class="ptSection__watermark">PERSONAL TRAINING</div>
+	<div class="ptSection__inner">
+		<div class="ptSection__icon">&#x1F4AA;</div>
+		<div class="ptSection__content">
+			<span class="ptSection__badge">RENEWAL</span>
+			<h2 class="ptSection__title">パーソナルトレーニング<br><span>コース</span>、受付開始！</h2>
+			<p class="ptSection__desc">専属トレーナーによるマンツーマン指導で、あなたの目標へ最速で。<br>プロを目指す方から、ダイエット・体力向上まで幅広く対応。</p>
+		</div>
+		<div class="ptSection__cta">
+			<a href="<?php echo home_url(); ?>/contact" class="ptSection__btn">無料体験を申し込む</a>
+			<a href="<?php echo home_url(); ?>/personal-training" class="ptSection__link">詳しくはこちら →</a>
+		</div>
+	</div>
+</div>
+
 <!-- <section>
 <div class="inner">
 <h2 class="title">パーソナルトレーニングリニューアル<span> - CAMPAIGN -</span></h2>
@@ -195,33 +223,7 @@
 	</div>
 </div>
 </section>
-<section class="topTaiken">
-<h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">無料体験レッスン受付中<span> - FREE TRIAL -</span></h2>
-<div class="inner">
-<div class="taikenDescContainer">
-	<div class="taikenDescContainer__item">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/top/trial1.jpg" alt="" />
-		<p>女性・男性・子供と多くの方が無料体験レッスンで楽しさを実感しています。</p>
-	</div>
-	<div class="taikenDescContainer__item">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/top/trial2.jpg" alt="" />
-		<p>ジュニアクラスは、キックボクシングを学びながら心身共に強く心優しい人間に成長させます。</p>
-	</div>
-	<div class="taikenDescContainer__item">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/top/trial3.png" alt="" />
-		<p>パンチとキックの全身運動でダイエット、ストレス解消、護身にもなります。</p>
-	</div>
-</div>
-<div class="taikenContainer">
-	<div class="taikenContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-	<p><a href="<?php echo home_url(); ?>/contact">メールでのお問い合わせ</a></p>
-	</div>
-	<div class="taikenContainer__item" data-aos="zoom-in-up" data-aos-duration="1000">
-	<p><a href="tel:0925556659">電話でのお問い合わせ</a></p>
-	</div>
-</div>
-</div>
-</section>
+<?php get_template_part('template-parts/trial-section'); ?>
 <section>
 <div class="inner newsInner">
 <h2 class="title" data-aos="zoom-in-up" data-aos-duration="1000">Instagram<span> - FOLLOW US -</span></h2>
