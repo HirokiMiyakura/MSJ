@@ -204,7 +204,7 @@ get_header(); ?>
 	</tr>
 	<tr>
 		<th>URL</th>
-		<td>http://msj-kickboxing.com/</td>
+		<td>https://msj-kickboxing.com/</td>
 	</tr>
 	<tr>
 		<th>MAIL</th>
