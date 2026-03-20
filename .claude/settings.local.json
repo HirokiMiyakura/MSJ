@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx sass:*)"
+      "Bash(npx sass:*)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//Users/hirokimiyakura/Local Sites/msj/app/public/wp-content/themes/MSJ_THEME/**)",
+      "Bash(done)"
     ]
   }
 }
