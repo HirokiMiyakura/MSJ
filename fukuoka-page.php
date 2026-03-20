@@ -32,8 +32,16 @@ get_header(); ?>
 			</thead>
 			<tbody>
 				<tr>
-					<td>月曜 ~ 金曜</td>
-					<td>13:00 ~ 22:00</td>
+					<td>日曜</td>
+					<td>11:00 ~ 17:00</td>
+				</tr>
+				<tr>
+					<td>月曜</td>
+					<td>18:00 ~ 23:00</td>
+				</tr>
+				<tr>
+					<td>火曜〜金曜</td>
+					<td>13:00 ~ 23:00</td>
 				</tr>
 				<tr>
 					<td>土曜</td>
@@ -44,65 +52,18 @@ get_header(); ?>
 
 		<h3 class="priceTitle">プラン</h3>
 		<p>セミパーソナル（定額通い放題）</p>
-		<!-- <table class="classTable">
-			<thead>
-				<tr>
-					<th>コース</th>
-					<th>料金</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>セミパーソナル（定額通い放題）</td>
-					<td>11,000（税抜）</td>
-				</tr>
-			</tbody>
-		<thead>
-		<tr>
-		<th>コース</th>
-		<th>曜日</th>
-		<th>時間</th>
-		</tr>
-		</thead>
-		<tbody>
-		<tr>
-		<td>フィットネスクラス</td>
-		<td>月、水、金</td>
-		<td>14:00 ~ 14:50</td>
-		</tr>
-		<tr>
-		<td>フィットネスクラス</td>
-		<td>月、金</td>
-		<td>20:00 ~ 20:50</td>
-		</tr>
-		<tr>
-		<td>Actual battleクラス</td>
-		<td>水</td>
-		<td>20:00 ~ 21:00</td>
-		</tr>
-		<tr>
-		<td>女性限定フィットネスクラス</td>
-		<td>火、木</td>
-		<td>19:30 ~ 20:20</td>
-		</tr>
-		<tr>
-		<td>フリークラス</td>
-		<td>土曜・その他</td>
-		<td>終日</td>
-		</tr>
-		</table> -->
 		<h3 class="priceTitle">基本料金</h3>
 		<table class="classTable">
 			<thead>
 				<tr>
 					<th>対象</th>
-					<th>会費/月（税抜）</th>
+					<th>会費/月（税込）</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<td>男性・女性</td>
-					<td>11,000円</td>
+					<td>13,000円</td>
 				</tr>
 			</tbody>
 		</table>
@@ -133,7 +94,116 @@ get_header(); ?>
 				</tr>
 			</tbody>
 		</table>
-		<!-- <p class="campaign">さらに、今なら初月無料キャンペーン実施中！！</p> -->
+
+		<h3 class="priceTitle">スケジュール</h3>
+
+		<table class="scheduleTable">
+			<tbody>
+				<tr class="noBorder">
+					<td></td>
+					<td>月</td>
+					<td>火</td>
+					<td>水</td>
+					<td>木</td>
+					<td>金</td>
+					<td>土</td>
+					<td>日</td>
+				</tr>
+				<tr>
+					<td>11:00</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="freetrainingClass" rowspan="6">フリー<br>トレーニング</td>
+				</tr>
+				<tr>
+					<td>12:00</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>13:00</td>
+					<td></td>
+					<td class="freetrainingClass" rowspan="12">フリー<br>トレーニング</td>
+					<td class="freetrainingClass" rowspan="6">フリー<br>トレーニング</td>
+					<td class="freetrainingClass" rowspan="12">フリー<br>トレーニング</td>
+					<td class="freetrainingClass" rowspan="12">フリー<br>トレーニング</td>
+					<td class="freetrainingClass" rowspan="8">フリー<br>トレーニング</td>
+				</tr>
+				<tr>
+					<td>14:00</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>15:00</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>16:00</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>17:00</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>18:00</td>
+					<td class="freetrainingClass">フリー<br>トレーニング</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>19:00</td>
+					<td class="kickfitClass" rowspan="2">キックフィット<br>クラス</td>
+					<td class="ladiesClass" rowspan="2">レディース<br>クラス</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>19:30</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>20:00</td>
+					<td class="freetrainingClass" rowspan="4">フリー<br>トレーニング</td>
+					<td class="freetrainingClass" rowspan="4">フリー<br>トレーニング</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>20:30</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>21:00</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>22:00</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="noBorder">
+					<td>23:00</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+
 	</div>
 </section>
 

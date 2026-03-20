@@ -25,9 +25,9 @@
 </div>
 <!-- <section>
 <div class="inner">
-<h2 class="title">キャンペーン<span> - CAMPAIGN -</span></h2>
+<h2 class="title">パーソナルトレーニングリニューアル<span> - CAMPAIGN -</span></h2>
 	<div class="campaignOuter inner">
-		<h3>六本松大濠店<br class="sp">オープンキャンペーン実施中</h3>
+		<h3>パーソナルトレーニング<br class="sp">リニューアル実施中</h3>
 		<h4 class="campaignText">六本松大濠店に2月〜3月末までに<br class="sp">御入会の方先着30名様限定</h4>
 		<div class="campaignContainer">
 			<div class="campaignContainer__item">
@@ -137,8 +137,8 @@
         </tr>
         <tr>
           <td>営業時間</td>
-          <td>13:00〜16:00　18:00〜23:00</td>
-        </tr>
+					<td>日11:00〜17:00 / 月18:00〜23:00 / 火〜金13:00〜23:00 / 土13:00〜20:00</td>
+					</tr>
       </table>
 	</div>
 </div>
@@ -163,7 +163,7 @@
 			</tr>
 			<tr>
 				<td>営業時間</td>
-				<td>平日13:00~22:00 / 土曜日13:00~20:00</td>
+				<td>日11:00〜17:00 / 月18:00〜23:00 / 火〜金13:00〜23:00 / 土13:00〜20:00</td>
 			</tr>
 			<!-- <tr>
 				<td>ニューオープン</td>
@@ -193,8 +193,7 @@
 			</tr>
 			<tr>
 				<td>営業時間</td>
-				<td>平日13:00~22:00 / 土曜日13:00~20:00</td>
-			</tr>
+				<td>月18:00〜23:00 / 火〜金13:00〜23:00 / 土13:00〜20:00</td>
 			<tr>
 				<td>ニューオープン</td>
 				<td><span class="big">入会金・手数料・初月料金無料！！</span></td>

@@ -484,9 +484,13 @@ footer {
 
 .footerTable {
 	margin-bottom: 24px;
+	tr {
+		vertical-align: top;
+	}
 	td {
 		font-size: 0.8em;
 		padding: 4px;
+		min-width: 70px;
 		&:first-child {
 			font-weight: 900;
 		}

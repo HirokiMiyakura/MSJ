@@ -32,12 +32,20 @@ get_header(); ?>
 			</thead>
 			<tbody>
 				<tr>
-					<td>月曜〜金曜</td>
-					<td>13:00 ~ 16:00　18:00 ~ 23:00</td>
+					<td>日曜</td>
+					<td>11:00 ~ 17:00</td>
+				</tr>
+				<tr>
+					<td>月曜</td>
+					<td>18:00 ~ 23:00</td>
+				</tr>
+				<tr>
+					<td>火曜〜金曜</td>
+					<td>13:00 ~ 23:00</td>
 				</tr>
 				<tr>
 					<td>土曜</td>
-					<td>13:00 ~ 16:00　18:00 ~ 23:00</td>
+					<td>13:00 ~ 20:00</td>
 				</tr>
 			</tbody>
 		</table>
@@ -48,29 +56,29 @@ get_header(); ?>
 				<tr>
 					<th>コース</th>
 					<th>対象</th>
-					<th>会費/月（税抜）</th>
+					<th>会費/月（税込）</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<td>一般オールタイム</td>
 					<td>男性</td>
-					<td>11.000円</td>
+					<td>13.000円</td>
 				</tr>
 				<tr>
 					<td>一般週2回コース</td>
 					<td>男性</td>
-					<td>9,000円</td>
+					<td>11,000円</td>
 				</tr>
 				<tr>
 					<td>女性オールタイム</td>
 					<td>女性</td>
-					<td>8,000円</td>
+					<td>9,900円</td>
 				</tr>
 				<tr>
 					<td>女性週2回コース</td>
-					<td>男性</td>
-					<td>7,000円</td>
+					<td>女性</td>
+					<td>8,800円</td>
 				</tr>
 				<tr>
 					<td>学生（高校生以上）オールタイム</td>
@@ -128,98 +136,6 @@ get_header(); ?>
 		</table>
 
 		<h3 class="priceTitle">スケジュール</h3>
-		<!-- <table class="scheduleTable">
-			<tbody>
-				<tr class="noBorder">
-					<td></td>
-					<td>月</td>
-					<td>火</td>
-					<td>水</td>
-					<td>木</td>
-					<td>金</td>
-					<td>土</td>
-				</tr>
-				<tr>
-					<td>13:00</td>
-					<td class="freetrainingClass" rowspan="3">フリートレーニンング</td>
-					<td class="freetrainingClass" rowspan="3">フリートレーニンング</td>
-					<td class="freetrainingClass" rowspan="3">フリートレーニンング</td>
-					<td class="freetrainingClass" rowspan="3">フリートレーニンング</td>
-					<td class="freetrainingClass" rowspan="3">フリートレーニンング</td>
-					<td class="freetrainingClass" rowspan="3">フリートレーニンング</td>
-				</tr>
-				<tr>
-					<td>14:00</td>
-				</tr>
-				<tr>
-					<td>15:00</td>
-				</tr>
-				<tr>
-					<td>16:00</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>17:00</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>18:00</td>
-					<td class="juniorClass" rowspan="2">ジュニアクラス</td>
-					<td></td>
-					<td class="juniorClass" rowspan="2">ジュニアクラス</td>
-					<td></td>
-					<td class="juniorClass" rowspan="2">ジュニアクラス</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>19:00</td>
-					<td class="freetrainingClass">フリートレーニング</td>
-					<td class="freetrainingClass">フリートレーニング</td>
-					<td class="freetrainingClass" rowspan="2">フリートレーニング</td>
-				</tr>
-				<tr>
-					<td>20:00</td>
-					<td class="proClass" rowspan="2">プロ選手練習</td>
-					<td class="fitnessClass">クラス練習</td>
-					<td class="fitnessClass">クラス練習</td>
-					<td class="fitnessClass">クラス練習</td>
-					<td class="proClass" rowspan="2">プロ選手練習</td>
-				</tr>
-				<tr>
-					<td>21:00</td>
-					<td class="bodymakeClass">BODY MAKEクラス</td>
-					<td class="freetrainingClass" rowspan="2">フリートレーニング</td>
-					<td class="bodymakeClass">BODY MAKEクラス</td>
-					<td class="bodymakeClass">BODY MAKEクラス</td>
-				</tr>
-				<tr>
-					<td>22:00</td>
-					<td class="freetrainingClass">フリートレーニング</td>
-					<td class="freetrainingClass">フリートレーニング</td>
-					<td class="freetrainingClass">フリートレーニング</td>
-					<td class="freetrainingClass">フリートレーニング</td>
-				</tr>
-				<tr class="noBorder">
-					<td>23:00</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-			</tbody>
-		</table> -->
 
 		<table class="scheduleTable">
 			<tbody>
@@ -231,15 +147,35 @@ get_header(); ?>
 					<td>木</td>
 					<td>金</td>
 					<td>土</td>
+					<td>日</td>
+				</tr>
+				<tr>
+					<td>11:00</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="freetrainingClass" rowspan="6">フリー<br>トレーニング</td>
+				</tr>
+				<tr>
+					<td>12:00</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>13:00</td>
-					<td class="freetrainingClass" rowspan="3">フリートレーニンング</td>
-					<td class="freetrainingClass" rowspan="3">フリートレーニンング</td>
-					<td class="freetrainingClass" rowspan="3">フリートレーニンング</td>
-					<td class="freetrainingClass" rowspan="3">フリートレーニンング</td>
-					<td class="freetrainingClass" rowspan="3">フリートレーニンング</td>
-					<td class="freetrainingClass" rowspan="3">フリートレーニンング</td>
+					<td></td>
+					<td class="freetrainingClass" rowspan="3">フリー<br>トレーニング</td>
+					<td class="freetrainingClass" rowspan="3">フリー<br>トレーニング</td>
+					<td class="freetrainingClass" rowspan="3">フリー<br>トレーニング</td>
+					<td class="freetrainingClass" rowspan="3">フリー<br>トレーニング</td>
+					<td class="freetrainingClass" rowspan="3">フリー<br>トレーニング</td>
 				</tr>
 				<tr>
 					<td>14:00</td>
@@ -264,53 +200,64 @@ get_header(); ?>
 					<td></td>
 					<td></td>
 					<td></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>18:00</td>
-					<td class="juniorClass" rowspan="3">ジュニアクラス</td>
+					<td class="juniorClass" rowspan="3">ジュニア<br>クラス</td>
 					<td></td>
-					<td class="juniorClass" rowspan="3">ジュニアクラス</td>
+					<td class="juniorClass" rowspan="3">ジュニア<br>クラス</td>
 					<td></td>
-					<td class="juniorClass" rowspan="3">ジュニアクラス</td>
+					<td class="juniorClass" rowspan="3">ジュニア<br>クラス</td>
+					<td></td>
 					<td></td>
 				</tr>
 				<tr>
 					<td>19:00</td>
-					<td class="freetrainingClass" rowspan="2">フリートレーニング</td>
-					<td class="freetrainingClass" rowspan="2">フリートレーニング</td>
+					<td class="freetrainingClass" rowspan="2">フリー<br>トレーニング</td>
+					<td class="freetrainingClass" rowspan="2">フリー<br>トレーニング</td>
+					<td></td>
 					<td></td>
 				</tr>
 				<tr>
 					<td>19:30</td>
-					<td class="fitnessClass" rowspan="2">フィットネスクラス</td>
+					<td class="fitnessClass" rowspan="2">フィットネス<br>クラス</td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>20:00</td>
 					<td class="proClass" rowspan="3">プロ選手練習</td>
-					<td class="fitnessClass" rowspan="2">フィットネスクラス</td>
-					<td class="fitnessClass" rowspan="2">フィットネスクラス</td>
-					<td class="fitnessClass" rowspan="2">フィットネスクラス</td>
+					<td class="fitnessClass" rowspan="2">フィットネス<br>クラス</td>
+					<td class="fitnessClass" rowspan="2">フィットネス<br>クラス</td>
+					<td class="fitnessClass" rowspan="2">フィットネス<br>クラス</td>
 					<td class="proClass" rowspan="3">プロ選手練習</td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>20:30</td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>21:00</td>
-					<td class="bodymakeClass">BODY MAKEクラス</td>
-					<td class="freetrainingClass" rowspan="2">フリートレーニング</td>
-					<td class="bodymakeClass">BODY MAKEクラス</td>
-					<td class="bodymakeClass">BODY MAKEクラス</td>
+					<td class="bodymakeClass">BODY MAKE<br>クラス</td>
+					<td class="freetrainingClass" rowspan="2">フリー<br>トレーニング</td>
+					<td class="bodymakeClass">BODY MAKE<br>クラス</td>
+					<td class="bodymakeClass">BODY MAKE<br>クラス</td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>22:00</td>
-					<td class="freetrainingClass">フリートレーニング</td>
-					<td class="freetrainingClass">フリートレーニング</td>
-					<td class="freetrainingClass">フリートレーニング</td>
-					<td class="freetrainingClass">フリートレーニング</td>
+					<td class="freetrainingClass">フリー<br>トレーニング</td>
+					<td class="freetrainingClass">フリー<br>トレーニング</td>
+					<td class="freetrainingClass">フリー<br>トレーニング</td>
+					<td class="freetrainingClass">フリー<br>トレーニング</td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr class="noBorder">
 					<td>23:00</td>
+					<td></td>
 					<td></td>
 					<td></td>
 					<td></td>
