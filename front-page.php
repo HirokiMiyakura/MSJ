@@ -1,16 +1,29 @@
 <?php get_header(); ?>
-<div class="your-class">
-  <div>
-  	<h1>フィットネスもトップアスリートからの直接レッスン</h1>
-	<img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg1.png" alt="" />
+<div class="heroSlider">
+  <div class="heroSlider__slide">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg1.png" alt="フィットネスもトップアスリートからの直接レッスン" />
+    <div class="heroSlider__overlay"></div>
+    <div class="heroSlider__content">
+      <p class="heroSlider__eyecatch">- KICKBOXING GYM MSJ -</p>
+      <h1 class="heroSlider__title">フィットネスもトップアスリートからの<br>直接レッスン</h1>
+      <a href="<?php echo home_url(); ?>/contact" class="heroSlider__cta">無料体験を申し込む</a>
+    </div>
   </div>
-  <div>
-  	<h1>ジュニアは強い心と身体を作り未来へ羽ばたく</h1>
-	<img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg2.png" alt="" />
+  <div class="heroSlider__slide">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg2.png" alt="ジュニアは強い心と身体を作り未来へ羽ばたく" />
+    <div class="heroSlider__overlay"></div>
+    <div class="heroSlider__content">
+      <p class="heroSlider__eyecatch">- JUNIOR CLASS -</p>
+      <h1 class="heroSlider__title">ジュニアは強い心と身体を作り<br>未来へ羽ばたく</h1>
+    </div>
   </div>
-  <div>
-  	<h1>プロを目指す選手も一流の舞台へ</h1>
-	<img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg3.png" alt="" />
+  <div class="heroSlider__slide">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg3.png" alt="プロを目指す選手も一流の舞台へ" />
+    <div class="heroSlider__overlay"></div>
+    <div class="heroSlider__content">
+      <p class="heroSlider__eyecatch">- PRO ATHLETES -</p>
+      <h1 class="heroSlider__title">プロを目指す選手も<br>一流の舞台へ</h1>
+    </div>
   </div>
 </div>
 <div class="breadcrumbsOuter">

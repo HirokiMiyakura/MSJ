@@ -3,10 +3,12 @@
  * Template Name: 六本松大濠店（ropponmatsu-page.php）
  */
 get_header(); ?>
-<div class="your-class">
-  <div>
-		<h1>六本松大濠店 ~ ROPPONMATSU ~</h1>
-		<img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg2.png" alt="" />
+<div class="pageHero">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg2.png" alt="六本松大濠店" />
+  <div class="pageHero__overlay"></div>
+  <div class="pageHero__content">
+    <p class="pageHero__eyecatch">- ROPPONMATSU -</p>
+    <h1 class="pageHero__title">六本松大濠店</h1>
   </div>
 </div>
 <div class="breadcrumbsOuter">

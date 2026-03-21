@@ -3,10 +3,12 @@
  * Template Name: パーソナルトレーニング（personal-page.php）
  */
 get_header(); ?>
-<div class="your-class">
-  <div>
-		<h1>パーソナルトレーニング ~ PERSONAL ~</h1>
-		<img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg2.png" alt="" />
+<div class="pageHero">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg2.png" alt="パーソナルトレーニング" />
+  <div class="pageHero__overlay"></div>
+  <div class="pageHero__content">
+    <p class="pageHero__eyecatch">- PERSONAL TRAINING -</p>
+    <h1 class="pageHero__title">パーソナルトレーニング</h1>
   </div>
 </div>
 <div class="breadcrumbsOuter">
@@ -110,20 +112,6 @@ get_header(); ?>
 	</div>
 </section>
 
-<!-- 申し込み誘導CTAバナー -->
-<div class="ptCtaBanner">
-	<div class="ptCtaBanner__inner">
-		<div class="ptCtaBanner__text">
-			<p class="ptCtaBanner__sub">まずは気軽に体験してみてください</p>
-			<h2 class="ptCtaBanner__title">無料体験、受付中</h2>
-			<p class="ptCtaBanner__desc">入会前に実際のトレーニングを無料でお試しいただけます。<br>トレーナーへの相談・質問もお気軽にどうぞ。</p>
-		</div>
-		<div class="ptCtaBanner__buttons">
-			<a href="<?php echo home_url(); ?>/contact" class="ptCtaBanner__btn ptCtaBanner__btn--mail">メールで申し込む</a>
-			<a href="tel:0925556659" class="ptCtaBanner__btn ptCtaBanner__btn--tel">&#x260E; 092-555-6659</a>
-		</div>
-	</div>
-</div>
 
 <?php get_template_part('template-parts/trial-section'); ?>
 <?php get_footer(); ?>

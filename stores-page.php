@@ -3,10 +3,12 @@
  * Template Name: 店舗紹介（stores-page.php）
  */
 get_header(); ?>
-<div class="your-class">
-  <div>
-  	<h1>店舗紹介 ~ STORES ~</h1>
-	<img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg2.png" alt="" />
+<div class="pageHero">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg2.png" alt="店舗紹介" />
+  <div class="pageHero__overlay"></div>
+  <div class="pageHero__content">
+    <p class="pageHero__eyecatch">- STORES -</p>
+    <h1 class="pageHero__title">店舗紹介</h1>
   </div>
 </div>
 <div class="breadcrumbsOuter">

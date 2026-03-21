@@ -3,10 +3,12 @@
  * Template Name: 天神店（tenjin-page.php）
  */
 get_header(); ?>
-<div class="your-class">
-  <div>
-		<h1>天神店 ~ TENJIN ~</h1>
-		<img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg2.png" alt="" />
+<div class="pageHero">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg2.png" alt="天神店" />
+  <div class="pageHero__overlay"></div>
+  <div class="pageHero__content">
+    <p class="pageHero__eyecatch">- TENJIN -</p>
+    <h1 class="pageHero__title">天神店</h1>
   </div>
 </div>
 <div class="breadcrumbsOuter">

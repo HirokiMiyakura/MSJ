@@ -3,10 +3,12 @@
  * Template Name: MSJについて（about-page.php）
  */
 get_header(); ?>
-<div class="your-class">
-  <div>
-  	<h1>MSJについて ~ ABOUT US ~</h1>
-	<img src="<?php echo get_template_directory_uri(); ?>/img/common/about.png" alt="" />
+<div class="pageHero">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/common/about.png" alt="MSJについて" />
+  <div class="pageHero__overlay"></div>
+  <div class="pageHero__content">
+    <p class="pageHero__eyecatch">- ABOUT US -</p>
+    <h1 class="pageHero__title">MSJについて</h1>
   </div>
 </div>
 

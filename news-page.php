@@ -3,9 +3,12 @@
 * Template Name: ニュース（news-page.php）
 */
 get_header(); ?>
-<div class="your-class">
-  <div>
-	  <img src="<?php echo get_template_directory_uri(); ?>/img/common/common1.png" alt="" />
+<div class="pageHero">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/common/common1.png" alt="新着情報" />
+  <div class="pageHero__overlay"></div>
+  <div class="pageHero__content">
+    <p class="pageHero__eyecatch">- NEWS -</p>
+    <h1 class="pageHero__title">新着情報</h1>
   </div>
 </div>
 

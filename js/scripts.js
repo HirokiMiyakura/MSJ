@@ -8,14 +8,15 @@ jQuery(document).ready(function($) {
         $("#panel" + $th).addClass("active").appendTo($("#cj_panelarea"));
     });
 
-    $('.your-class').slick({
+    $('.heroSlider').slick({
         arrows: false,
-        dots: false,
+        dots: true,
         autoplay: true,
+        autoplaySpeed: 5000,
         infinite: true,
-        speed: 600,
+        speed: 1000,
         fade: true,
-        cssEase: 'linear'
+        cssEase: 'ease-in-out'
     });
 
     $('.responsive').slick({
