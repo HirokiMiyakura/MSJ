@@ -1,8 +1,11 @@
 <?php get_header(); ?>
 
-<div class="your-class">
-  <div>
-	  <img src="<?php echo get_template_directory_uri(); ?>/img/common/common1.png" alt="" />
+<div class="pageHero">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/common/common1.png" alt="<?php the_title(); ?>" />
+  <div class="pageHero__overlay"></div>
+  <div class="pageHero__content">
+    <p class="pageHero__eyecatch">- NEWS -</p>
+    <h1 class="pageHero__title"><?php the_title(); ?></h1>
   </div>
 </div>
 

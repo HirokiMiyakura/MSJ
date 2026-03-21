@@ -360,6 +360,166 @@ header {
 	}
 }
 
+// =============================
+// Hero Slider（トップページ）
+// =============================
+.heroSlider {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+
+	&__slide {
+		position: relative;
+		width: 100%;
+
+		img {
+			width: 100%;
+			height: 85vh;
+			object-fit: cover;
+			object-position: center;
+			display: block;
+		}
+	}
+
+	&__overlay {
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.15) 0%,
+			rgba(0, 0, 0, 0.55) 55%,
+			rgba(0, 0, 0, 0.3) 100%
+		);
+	}
+
+	&__content {
+		position: absolute;
+		inset: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 0 24px;
+		color: #fff;
+	}
+
+	&__eyecatch {
+		font-size: 0.8rem;
+		letter-spacing: 0.35em;
+		margin-bottom: 20px;
+		opacity: 0.9;
+		font-weight: 400;
+	}
+
+	&__title {
+		font-size: 2.6rem;
+		font-weight: 900;
+		line-height: 1.5;
+		text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.55);
+		letter-spacing: 0.06em;
+		margin-bottom: 36px;
+	}
+
+	&__cta {
+		display: inline-block;
+		background: $mainColor;
+		color: #fff;
+		font-weight: 700;
+		padding: 15px 40px;
+		border-radius: 2px;
+		letter-spacing: 0.12em;
+		font-size: 1rem;
+		text-decoration: none;
+		transition:
+			background 0.3s,
+			transform 0.2s;
+
+		&:hover {
+			background: darken($mainColor, 10%);
+			color: #fff;
+			transform: translateY(-2px);
+		}
+	}
+
+	&.slick-dotted.slick-slider {
+		margin-bottom: 0;
+	}
+
+	.slick-dots {
+		bottom: 20px;
+
+		li button::before {
+			color: #fff;
+			font-size: 10px;
+			opacity: 0.6;
+		}
+
+		li.slick-active button::before {
+			color: #fff;
+			opacity: 1;
+		}
+	}
+}
+
+// =============================
+// Page Hero（サブページ共通）
+// =============================
+.pageHero {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+
+	img {
+		width: 100%;
+		height: 55vh;
+		min-height: 280px;
+		object-fit: cover;
+		object-position: center;
+		display: block;
+	}
+
+	&__overlay {
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.1) 0%,
+			rgba(0, 0, 0, 0.5) 60%,
+			rgba(0, 0, 0, 0.3) 100%
+		);
+	}
+
+	&__content {
+		position: absolute;
+		inset: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 0 24px;
+		color: #fff;
+	}
+
+	&__eyecatch {
+		font-size: 0.8rem;
+		letter-spacing: 0.35em;
+		margin-bottom: 12px;
+		opacity: 0.9;
+		font-weight: 400;
+	}
+
+	&__title {
+		font-size: 2.2rem;
+		font-weight: 900;
+		line-height: 1.4;
+		text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.55);
+		letter-spacing: 0.06em;
+		margin: 0;
+	}
+}
+
 .breadcrumbsOuter {
 	background-color: #f5f5f5;
 	.breadcrumbs {
@@ -374,17 +534,22 @@ header {
 }
 
 .title {
-	color: #000;
-	font-size: 2.5em;
-	font-style: italic;
-	font-weight: normal;
+	color: #111;
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 900;
 	text-align: center;
-	margin: 0 auto 80px auto;
+	margin: 0 auto 64px auto;
+	letter-spacing: 0.04em;
+	line-height: 1.2;
 	span {
+		display: block;
 		color: $mainColor;
-		font-weight: normal;
-		font-size: 0.75em;
-		font-style: italic;
+		font-weight: 400;
+		font-size: 0.5em;
+		font-style: normal;
+		letter-spacing: 0.3em;
+		margin-top: 10px;
 	}
 }
 
@@ -963,6 +1128,166 @@ input[type='submit'] {
 	padding: 24px 0;
 	letter-spacing: 0.1em;
 	border: none;
+}
+
+// =============================
+// Contact Section
+// =============================
+.contactSection {
+	background-color: #f7f7f7;
+	padding: 80px 0 100px;
+
+	&__header {
+		text-align: center;
+		margin-bottom: 48px;
+		padding: 0 24px;
+
+		.title {
+			margin-bottom: 20px;
+		}
+	}
+
+	&__lead {
+		font-size: 0.95rem;
+		color: #555;
+		line-height: 1.9;
+		letter-spacing: 0.05em;
+	}
+
+	&__methods {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 40px;
+		margin-bottom: 56px;
+		padding: 0 24px;
+	}
+
+	&__method {
+		text-align: center;
+	}
+
+	&__methodIcon {
+		font-size: 2rem;
+		margin-bottom: 10px;
+		color: $mainColor;
+	}
+
+	&__methodLabel {
+		font-size: 1.05rem;
+		font-weight: 700;
+		letter-spacing: 0.05em;
+		margin-bottom: 4px;
+
+		a {
+			color: #111;
+			text-decoration: none;
+
+			&:hover {
+				color: $mainColor;
+			}
+		}
+	}
+
+	&__methodDesc {
+		font-size: 0.78rem;
+		color: #888;
+		letter-spacing: 0.05em;
+	}
+
+	&__methodDivider {
+		font-size: 0.85rem;
+		color: #aaa;
+		letter-spacing: 0.1em;
+		font-weight: 700;
+	}
+
+	&__formWrap {
+		max-width: 760px;
+		margin: 0 auto;
+		padding: 0 24px;
+	}
+
+	&__formCard {
+		background: #fff;
+		border-radius: 4px;
+		box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+		padding: 48px 48px 56px;
+	}
+
+	&__formTitle {
+		font-size: 1.1rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		margin-bottom: 32px;
+		padding-bottom: 16px;
+		border-bottom: 2px solid #f0f0f0;
+		color: #222;
+	}
+
+	&__formCard {
+		.wpcf7-form {
+			p {
+				margin-bottom: 20px;
+			}
+			label {
+				display: block;
+				font-size: 0.85rem;
+				font-weight: 700;
+				color: #333;
+				margin-bottom: 6px;
+				letter-spacing: 0.05em;
+			}
+			input[type='text'],
+			input[type='email'],
+			input[type='tel'],
+			input[type='date'],
+			select,
+			textarea {
+				width: 100%;
+				padding: 12px 14px;
+				border: 1px solid #ddd;
+				border-radius: 3px;
+				font-size: 0.95rem;
+				background: #fafafa;
+				transition:
+					border-color 0.2s,
+					background 0.2s;
+				margin-top: 0;
+
+				&:focus {
+					border-color: $mainColor;
+					background: #fff;
+					outline: none;
+				}
+			}
+			textarea {
+				min-height: 140px;
+				resize: vertical;
+			}
+			input[type='submit'] {
+				width: 100%;
+				padding: 16px 0;
+				background: $mainColor;
+				color: #fff;
+				font-size: 1rem;
+				font-weight: 700;
+				letter-spacing: 0.15em;
+				border: none;
+				border-radius: 3px;
+				cursor: pointer;
+				transition:
+					background 0.3s,
+					transform 0.2s;
+				margin-top: 8px;
+
+				&:hover {
+					background: darken($mainColor, 10%);
+					transform: translateY(-2px);
+				}
+			}
+		}
+	}
 }
 
 // personal-page.php
@@ -1643,13 +1968,54 @@ input[type='submit'] {
 		}
 	}
 
-	.title {
-		font-size: 1.5em;
-		margin-bottom: 24px;
-		span::before {
-			content: '\A';
-			white-space: pre;
+	.heroSlider {
+		&__slide img {
+			height: 60vh;
 		}
+		&__eyecatch {
+			font-size: 0.65rem;
+			margin-bottom: 12px;
+		}
+		&__title {
+			font-size: 1.25rem;
+			margin-bottom: 24px;
+		}
+		&__cta {
+			padding: 12px 28px;
+			font-size: 0.9rem;
+		}
+	}
+
+	.pageHero {
+		img {
+			height: 40vh;
+			min-height: 200px;
+		}
+		&__eyecatch {
+			font-size: 0.65rem;
+			margin-bottom: 8px;
+		}
+		&__title {
+			font-size: 1.3rem;
+		}
+	}
+
+	.contactSection {
+		padding: 56px 0 72px;
+
+		&__methods {
+			flex-direction: column;
+			gap: 24px;
+		}
+
+		&__formCard {
+			padding: 32px 24px 40px;
+		}
+	}
+
+	.title {
+		font-size: 1.4rem;
+		margin-bottom: 40px;
 	}
 
 	.scheduleNew {

@@ -3,10 +3,12 @@
  * Template Name: 入会案内（guidance-page.php）
  */
 get_header(); ?>
-<div class="your-class">
-  <div>
-  	<h1>入会案内 ~ GUIDANCE ~</h1>
-	<img src="<?php echo get_template_directory_uri(); ?>/img/common/guidance.png" alt="" />
+<div class="pageHero">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/common/guidance.png" alt="入会案内" />
+  <div class="pageHero__overlay"></div>
+  <div class="pageHero__content">
+    <p class="pageHero__eyecatch">- GUIDANCE -</p>
+    <h1 class="pageHero__title">入会案内</h1>
   </div>
 </div>
 <div class="breadcrumbsOuter">

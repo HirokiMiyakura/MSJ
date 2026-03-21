@@ -3,10 +3,12 @@
  * Template Name: クラス紹介（class-page.php）
  */
 get_header(); ?>
-<div class="your-class">
-  <div>
-  	<h1>クラス紹介 ~ CLASS ~</h1>
-	<img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg3.png" alt="" />
+<div class="pageHero">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/top/mainImg3.png" alt="クラス紹介" />
+  <div class="pageHero__overlay"></div>
+  <div class="pageHero__content">
+    <p class="pageHero__eyecatch">- CLASS -</p>
+    <h1 class="pageHero__title">クラス紹介</h1>
   </div>
 </div>
 <div class="breadcrumbsOuter">
