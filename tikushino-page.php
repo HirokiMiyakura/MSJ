@@ -47,7 +47,7 @@ get_header(); ?>
 				</tr>
 				<tr>
 					<td>土曜</td>
-					<td>13:00 ~ 20:00</td>
+					<td>13:00 ~ 21:00</td>
 				</tr>
 			</tbody>
 		</table>
