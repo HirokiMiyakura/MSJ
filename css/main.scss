@@ -1,4 +1,4 @@
-$mainColor: deeppink;
+$mainColor: #FF6B00;
 
 @mixin flex() {
 	display: -webkit-flex;
@@ -1390,7 +1390,7 @@ input[type='submit'] {
 // 無料体験セクション（新デザイン）
 
 .trialSection {
-	background: #0a0a0a;
+	background: #fff;
 	padding: 100px 0;
 	text-align: center;
 
@@ -1409,14 +1409,14 @@ input[type='submit'] {
 	&__title {
 		font-size: 2.2em;
 		font-weight: 900;
-		color: #fff;
+		color: #111;
 		line-height: 1.4;
 		margin-bottom: 20px;
 		letter-spacing: 0.03em;
 	}
 
 	&__sub {
-		color: #bbb;
+		color: #555;
 		font-size: 0.95em;
 		line-height: 1.9;
 	}
@@ -1433,9 +1433,9 @@ input[type='submit'] {
 		display: flex;
 		align-items: center;
 		gap: 8px;
-		background: #1a1a1a;
-		border: 1px solid #2a2a2a;
-		color: #fff;
+		background: #fff3e8;
+		border: 1px solid #ffd5a8;
+		color: #333;
 		font-size: 0.85em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -1490,7 +1490,7 @@ input[type='submit'] {
 	}
 
 	&__flowTitle {
-		color: #bbb;
+		color: #888;
 		font-size: 1em;
 		font-weight: 700;
 		letter-spacing: 0.3em;
@@ -1527,13 +1527,13 @@ input[type='submit'] {
 	}
 
 	&__stepText {
-		color: #ccc;
+		color: #555;
 		font-size: 0.95em;
 		line-height: 1.7;
 	}
 
 	&__stepArrow {
-		color: #333;
+		color: $mainColor;
 		font-size: 2em;
 		margin-bottom: 24px;
 	}
@@ -1570,9 +1570,9 @@ input[type='submit'] {
 		}
 
 		&--tel {
-			background: #1a1a1a;
-			border: 1px solid #333;
-			color: #fff;
+			background: #fff;
+			border: 2px solid $mainColor;
+			color: $mainColor;
 		}
 	}
 
@@ -1581,7 +1581,7 @@ input[type='submit'] {
 	}
 
 	&__ctaNote {
-		color: #555;
+		color: #777;
 		font-size: 0.78em;
 		letter-spacing: 0.05em;
 		margin-top: 4px;
@@ -1751,7 +1751,7 @@ input[type='submit'] {
 .sundayBanner {
 	background-color: #111;
 	border-top: 3px solid $mainColor;
-	background: deeppink;
+	background: $mainColor;
 	&__inner {
 		display: flex;
 		align-items: center;
@@ -1776,15 +1776,15 @@ input[type='submit'] {
 		letter-spacing: 0.05em;
 	}
 	&__sep {
-		color: #555;
+		color: rgba(255, 255, 255, 0.6);
 	}
 	&__day {
-		color: #ccc;
+		color: #fff;
 		font-size: 0.9em;
 	}
 	&__time {
-		background-color: #222;
-		border: 1px solid #444;
+		background-color: rgba(255, 255, 255, 0.2);
+		border: 1px solid rgba(255, 255, 255, 0.4);
 		color: #fff;
 		font-size: 0.9em;
 		font-weight: 700;
@@ -1797,7 +1797,7 @@ input[type='submit'] {
 
 .ptSection {
 	position: relative;
-	background-color: #0d0d0d;
+	background-color: #fff3e8;
 	overflow: hidden;
 	padding: 56px 0;
 	&__watermark {
@@ -1808,7 +1808,7 @@ input[type='submit'] {
 		font-size: 6em;
 		font-weight: 900;
 		font-style: italic;
-		color: rgba(255, 255, 255, 0.05);
+		color: rgba(0, 0, 0, 0.04);
 		white-space: nowrap;
 		pointer-events: none;
 		letter-spacing: 0.05em;
@@ -1848,7 +1848,7 @@ input[type='submit'] {
 	&__title {
 		font-size: 2em;
 		font-weight: 900;
-		color: #fff;
+		color: #111;
 		line-height: 1.35;
 		margin-bottom: 12px;
 		span {
@@ -1856,7 +1856,7 @@ input[type='submit'] {
 		}
 	}
 	&__desc {
-		color: #aaa;
+		color: #555;
 		font-size: 0.9em;
 		line-height: 1.8;
 	}
@@ -1884,7 +1884,7 @@ input[type='submit'] {
 		}
 	}
 	&__link {
-		color: #ccc;
+		color: #888;
 		font-size: 0.85em;
 		transition: color 0.2s;
 		&:hover {
