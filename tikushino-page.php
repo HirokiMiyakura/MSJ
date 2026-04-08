@@ -259,7 +259,7 @@ get_header(); ?>
 							<td class="sn-bodymake">BODY MAKE<br>クラス</td>
 							<td class="sn-free" rowspan="2">フリー<br>トレーニング</td>
 							<td class="sn-bodymake">BODY MAKE<br>クラス</td>
-							<td class="sn-bodymake">BODY MAKE<br>クラス</td>
+							<td></td>
 							<td></td>
 						</tr>
 						<tr>
