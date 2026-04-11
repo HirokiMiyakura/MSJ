@@ -47,7 +47,7 @@ get_header(); ?>
 				</tr>
 				<tr>
 					<td>土曜</td>
-					<td>13:00 ~ 20:00</td>
+					<td>13:00 ~ 21:00</td>
 				</tr>
 			</tbody>
 		</table>
@@ -259,7 +259,7 @@ get_header(); ?>
 							<td class="sn-bodymake">BODY MAKE<br>クラス</td>
 							<td class="sn-free" rowspan="2">フリー<br>トレーニング</td>
 							<td class="sn-bodymake">BODY MAKE<br>クラス</td>
-							<td class="sn-bodymake">BODY MAKE<br>クラス</td>
+							<td></td>
 							<td></td>
 						</tr>
 						<tr>
