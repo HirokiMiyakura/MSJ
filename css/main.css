@@ -28,7 +28,7 @@ nav::before {
   font-size: 2em;
   font-weight: 900;
   font-style: italic;
-  color: deeppink;
+  color: #ff6b00;
   letter-spacing: 0.05em;
   padding: 32px 28px 24px;
   border-bottom: 1px solid #1f1f1f;
@@ -77,10 +77,10 @@ nav .inner ul li a::after {
 
 nav .inner ul li a:hover {
   color: #fff;
-  border-left-color: deeppink;
+  border-left-color: #ff6b00;
 }
 nav .inner ul li a:hover::after {
-  color: deeppink;
+  color: #ff6b00;
   transform: translateX(3px);
 }
 
@@ -89,7 +89,7 @@ nav .inner ul li.nav__cta {
   border: none;
 }
 nav .inner ul li.nav__cta a {
-  background-color: deeppink;
+  background-color: #ff6b00;
   color: #fff;
   font-weight: 700;
   border-radius: 2px;
@@ -224,7 +224,7 @@ header {
   position: relative;
   z-index: 100;
   background-color: #0a0a0a;
-  border-top: 3px solid deeppink;
+  border-top: 3px solid #ff6b00;
   width: 100%;
 }
 header .headerInner {
@@ -248,7 +248,7 @@ header .logo__brand {
   font-size: 1.8em;
   font-weight: 900;
   font-style: italic;
-  color: deeppink;
+  color: #ff6b00;
   letter-spacing: 0.05em;
   line-height: 1;
 }
@@ -281,7 +281,7 @@ header .headerNavigationContainer__item a::after {
   left: 10px;
   right: 10px;
   height: 1px;
-  background: deeppink;
+  background: #ff6b00;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.25s ease;
@@ -296,7 +296,7 @@ header .headerNavigationContainer__item--cta {
   margin-left: 8px;
 }
 header .headerNavigationContainer__item--cta a {
-  background-color: deeppink;
+  background-color: #ff6b00;
   color: #fff;
   font-weight: 700;
   padding: 8px 18px;
@@ -388,7 +388,7 @@ header .headerNavigationContainer__item--cta a:hover {
 }
 .heroSlider__cta {
   display: inline-block;
-  background: deeppink;
+  background: #ff6b00;
   color: #fff;
   font-weight: 700;
   padding: 15px 40px;
@@ -399,7 +399,7 @@ header .headerNavigationContainer__item--cta a:hover {
   transition: background 0.3s, transform 0.2s;
 }
 .heroSlider__cta:hover {
-  background: rgb(224, 0, 121.0553191489);
+  background: rgb(204, 85.6, 0);
   color: #fff;
   transform: translateY(-2px);
 }
@@ -491,7 +491,7 @@ header .headerNavigationContainer__item--cta a:hover {
 }
 .title span {
   display: block;
-  color: deeppink;
+  color: #ff6b00;
   font-weight: 400;
   font-size: 0.5em;
   font-style: normal;
@@ -500,7 +500,7 @@ header .headerNavigationContainer__item--cta a:hover {
 }
 
 .campaignOuter {
-  background-color: deeppink;
+  background-color: #ff6b00;
   padding: 24px;
   width: 100%;
   margin: 0 auto;
@@ -520,7 +520,7 @@ header .headerNavigationContainer__item--cta a:hover {
 
 .addText {
   font-size: 1.5em;
-  color: deeppink;
+  color: #ff6b00;
   padding-top: 24px;
   text-align: center;
 }
@@ -533,7 +533,7 @@ header .headerNavigationContainer__item--cta a:hover {
 .campaignContainer__item {
   width: 30%;
   background-color: #fff;
-  color: deeppink;
+  color: #ff6b00;
   padding: 24px 0;
   text-align: center;
 }
@@ -570,7 +570,7 @@ header .headerNavigationContainer__item--cta a:hover {
   font-weight: normal;
   text-align: left;
   margin-bottom: 24px;
-  color: deeppink;
+  color: #ff6b00;
 }
 
 .featuresContainer.row {
@@ -750,7 +750,7 @@ footer .footerContainer__item:first-child {
   text-align: center;
 }
 .tTitle span {
-  color: deeppink;
+  color: #ff6b00;
   font-weight: normal;
   font-size: 0.75em;
   font-style: italic;
@@ -834,7 +834,7 @@ footer .footerContainer__item:first-child {
 }
 .classTable tbody th span,
 .classTable tbody td span {
-  color: deeppink;
+  color: #ff6b00;
   padding-left: 20px;
   font-size: 2em;
   font-weight: 900;
@@ -912,7 +912,7 @@ footer .footerContainer__item:first-child {
 }
 
 .campaign {
-  color: deeppink;
+  color: #ff6b00;
   font-size: 2em;
   text-align: center;
   font-weight: 900;
@@ -944,7 +944,7 @@ footer .footerContainer__item:first-child {
   float: left;
   order: -1;
   padding: 0 8px;
-  border-bottom: 2x solid deeppink;
+  border-bottom: 2x solid #ff6b00;
 }
 
 input[name=tab_name] {
@@ -952,7 +952,7 @@ input[name=tab_name] {
 }
 
 input:checked + .tab_class {
-  background-color: deeppink;
+  background-color: #ff6b00;
   color: aliceblue;
 }
 
@@ -960,7 +960,7 @@ input:checked + .tab_class {
   display: none;
   width: 100%;
   padding: 40px;
-  border: 2px solid deeppink;
+  border: 2px solid #ff6b00;
 }
 .content_class h3 {
   padding: 10px 0;
@@ -984,7 +984,7 @@ input:checked + .tab_class + .content_class {
   letter-spacing: 0.1em;
   font-weight: 900;
   text-align: center;
-  background-color: deeppink;
+  background-color: #ff6b00;
   color: #fff;
   padding: 16px;
   margin-top: 32px;
@@ -1008,7 +1008,7 @@ input:checked + .tab_class + .content_class {
   width: 65%;
 }
 .classContainer__item h3 {
-  color: deeppink;
+  color: #ff6b00;
   margin-bottom: 8px;
 }
 
@@ -1050,7 +1050,7 @@ article h4 span {
 
 input[type=submit] {
   color: #fff;
-  background-color: deeppink;
+  background-color: #ff6b00;
   padding: 24px 0;
   letter-spacing: 0.1em;
   border: none;
@@ -1088,7 +1088,7 @@ input[type=submit] {
 .contactSection__methodIcon {
   font-size: 2rem;
   margin-bottom: 10px;
-  color: deeppink;
+  color: #ff6b00;
 }
 .contactSection__methodLabel {
   font-size: 1.05rem;
@@ -1101,7 +1101,7 @@ input[type=submit] {
   text-decoration: none;
 }
 .contactSection__methodLabel a:hover {
-  color: deeppink;
+  color: #ff6b00;
 }
 .contactSection__methodDesc {
   font-size: 0.78rem;
@@ -1166,7 +1166,7 @@ input[type=submit] {
 .contactSection__formCard .wpcf7-form input[type=date]:focus,
 .contactSection__formCard .wpcf7-form select:focus,
 .contactSection__formCard .wpcf7-form textarea:focus {
-  border-color: deeppink;
+  border-color: #ff6b00;
   background: #fff;
   outline: none;
 }
@@ -1177,7 +1177,7 @@ input[type=submit] {
 .contactSection__formCard .wpcf7-form input[type=submit] {
   width: 100%;
   padding: 16px 0;
-  background: deeppink;
+  background: #ff6b00;
   color: #fff;
   font-size: 1rem;
   font-weight: 700;
@@ -1189,7 +1189,7 @@ input[type=submit] {
   margin-top: 8px;
 }
 .contactSection__formCard .wpcf7-form input[type=submit]:hover {
-  background: rgb(224, 0, 121.0553191489);
+  background: rgb(204, 85.6, 0);
   transform: translateY(-2px);
 }
 
@@ -1208,7 +1208,7 @@ input[type=submit] {
 .ptAppeal__item {
   flex: 1;
   background-color: #1a1a1a;
-  border-top: 3px solid deeppink;
+  border-top: 3px solid #ff6b00;
   padding: 32px 24px;
   text-align: center;
 }
@@ -1231,7 +1231,7 @@ input[type=submit] {
 }
 
 .ptCtaBanner {
-  background-color: deeppink;
+  background-color: #ff6b00;
   padding: 56px 0;
 }
 .ptCtaBanner__inner {
@@ -1281,7 +1281,7 @@ input[type=submit] {
 }
 .ptCtaBanner__btn--mail {
   background-color: #fff;
-  color: deeppink;
+  color: #ff6b00;
 }
 .ptCtaBanner__btn--tel {
   background-color: #000;
@@ -1289,7 +1289,7 @@ input[type=submit] {
 }
 
 .trialSection {
-  background: #0a0a0a;
+  background: #fff;
   padding: 100px 0;
   text-align: center;
 }
@@ -1297,7 +1297,7 @@ input[type=submit] {
   margin-bottom: 40px;
 }
 .trialSection__eyecatch {
-  color: deeppink;
+  color: #ff6b00;
   font-size: 0.8em;
   font-weight: 700;
   letter-spacing: 0.3em;
@@ -1306,13 +1306,13 @@ input[type=submit] {
 .trialSection__title {
   font-size: 2.2em;
   font-weight: 900;
-  color: #fff;
+  color: #111;
   line-height: 1.4;
   margin-bottom: 20px;
   letter-spacing: 0.03em;
 }
 .trialSection__sub {
-  color: #bbb;
+  color: #555;
   font-size: 0.95em;
   line-height: 1.9;
 }
@@ -1327,9 +1327,9 @@ input[type=submit] {
   display: flex;
   align-items: center;
   gap: 8px;
-  background: #1a1a1a;
-  border: 1px solid #2a2a2a;
-  color: #fff;
+  background: #fff3e8;
+  border: 1px solid #ffd5a8;
+  color: #333;
   font-size: 0.85em;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -1337,7 +1337,7 @@ input[type=submit] {
   border-radius: 40px;
 }
 .trialSection__badge-icon {
-  color: deeppink;
+  color: #ff6b00;
   font-weight: 900;
 }
 .trialSection__photos {
@@ -1377,7 +1377,7 @@ input[type=submit] {
   margin-bottom: 64px;
 }
 .trialSection__flowTitle {
-  color: #bbb;
+  color: #888;
   font-size: 1em;
   font-weight: 700;
   letter-spacing: 0.3em;
@@ -1400,7 +1400,7 @@ input[type=submit] {
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  background: deeppink;
+  background: #ff6b00;
   color: #fff;
   font-size: 1em;
   font-weight: 900;
@@ -1410,12 +1410,12 @@ input[type=submit] {
   justify-content: center;
 }
 .trialSection__stepText {
-  color: #ccc;
+  color: #555;
   font-size: 0.95em;
   line-height: 1.7;
 }
 .trialSection__stepArrow {
-  color: #333;
+  color: #ff6b00;
   font-size: 2em;
   margin-bottom: 24px;
 }
@@ -1442,19 +1442,19 @@ input[type=submit] {
   transform: translateY(-2px);
 }
 .trialSection__ctaBtn--mail {
-  background: deeppink;
+  background: #ff6b00;
   color: #fff;
 }
 .trialSection__ctaBtn--tel {
-  background: #1a1a1a;
-  border: 1px solid #333;
-  color: #fff;
+  background: #fff;
+  border: 2px solid #ff6b00;
+  color: #ff6b00;
 }
 .trialSection__ctaIcon {
   font-size: 1.1em;
 }
 .trialSection__ctaNote {
-  color: #555;
+  color: #777;
   font-size: 0.78em;
   letter-spacing: 0.05em;
   margin-top: 4px;
@@ -1601,8 +1601,8 @@ input[type=submit] {
 
 .sundayBanner {
   background-color: #111;
-  border-top: 3px solid deeppink;
-  background: deeppink;
+  border-top: 3px solid #ff6b00;
+  background: #ff6b00;
 }
 .sundayBanner__inner {
   display: flex;
@@ -1613,7 +1613,7 @@ input[type=submit] {
   padding: 14px 0;
 }
 .sundayBanner__new {
-  background-color: deeppink;
+  background-color: #ff6b00;
   color: #fff;
   font-size: 0.75em;
   font-weight: 900;
@@ -1628,15 +1628,15 @@ input[type=submit] {
   letter-spacing: 0.05em;
 }
 .sundayBanner__sep {
-  color: #555;
+  color: rgba(255, 255, 255, 0.6);
 }
 .sundayBanner__day {
-  color: #ccc;
+  color: #fff;
   font-size: 0.9em;
 }
 .sundayBanner__time {
-  background-color: #222;
-  border: 1px solid #444;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
   color: #fff;
   font-size: 0.9em;
   font-weight: 700;
@@ -1646,7 +1646,7 @@ input[type=submit] {
 
 .ptSection {
   position: relative;
-  background-color: #0d0d0d;
+  background-color: #fff3e8;
   overflow: hidden;
   padding: 56px 0;
 }
@@ -1658,7 +1658,7 @@ input[type=submit] {
   font-size: 6em;
   font-weight: 900;
   font-style: italic;
-  color: rgba(255, 255, 255, 0.05);
+  color: rgba(0, 0, 0, 0.04);
   white-space: nowrap;
   pointer-events: none;
   letter-spacing: 0.05em;
@@ -1675,7 +1675,7 @@ input[type=submit] {
   flex-shrink: 0;
   width: 80px;
   height: 80px;
-  background-color: deeppink;
+  background-color: #ff6b00;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1687,7 +1687,7 @@ input[type=submit] {
 }
 .ptSection__badge {
   display: inline-block;
-  background-color: deeppink;
+  background-color: #ff6b00;
   color: #fff;
   font-size: 0.75em;
   font-weight: 900;
@@ -1698,15 +1698,15 @@ input[type=submit] {
 .ptSection__title {
   font-size: 2em;
   font-weight: 900;
-  color: #fff;
+  color: #111;
   line-height: 1.35;
   margin-bottom: 12px;
 }
 .ptSection__title span {
-  color: deeppink;
+  color: #ff6b00;
 }
 .ptSection__desc {
-  color: #aaa;
+  color: #555;
   font-size: 0.9em;
   line-height: 1.8;
 }
@@ -1719,7 +1719,7 @@ input[type=submit] {
 }
 .ptSection__btn {
   display: block;
-  background-color: deeppink;
+  background-color: #ff6b00;
   color: #fff;
   font-size: 0.95em;
   font-weight: 900;
@@ -1734,12 +1734,12 @@ input[type=submit] {
   color: #fff;
 }
 .ptSection__link {
-  color: #ccc;
+  color: #888;
   font-size: 0.85em;
   transition: color 0.2s;
 }
 .ptSection__link:hover {
-  color: deeppink;
+  color: #ff6b00;
 }
 
 @media screen and (max-width: 1080px) {
@@ -1791,7 +1791,7 @@ input[type=submit] {
     display: none;
   }
   nav .nav__cta a {
-    background-color: deeppink;
+    background-color: #ff6b00;
     color: #fff !important;
     font-weight: 700;
   }
